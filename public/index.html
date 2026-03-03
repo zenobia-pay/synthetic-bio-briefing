@@ -61,7 +61,7 @@ Promise.all([
   signals.innerHTML=sigs.map(s=>`
     <div class='signal'>
       <div><strong><a target='_blank' href='${s.topLink}'>${s.name}</a></strong> <span class='meta'>${s.kind||''}</span></div>
-      <ul>${(s.items||[]).map(it=>`<li>${it.excerpt||''} → <a target='_blank' href='${it.url}'>${it.label||'link'}</a></li>`).join('')}</ul>
+      <ul>${(s.items||[]).map(it=>`<li>${it.excerpt||''} → <a target='_blank' href='${it.tweetUrl||it.sourceUrl||s.topLink}'>source</a> · <a target='_blank' href='${it.briefingUrl||'#view-run'}'>briefing</a></li>`).join('')}</ul>
     </div>
   `).join('');
   setActive('run');
