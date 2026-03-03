@@ -11,58 +11,54 @@
     .layout{display:grid;grid-template-columns:280px 1fr;gap:14px}
     .panel,.card{background:var(--card);border:1px solid var(--line);border-radius:14px}
     .panel{padding:12px}.card{padding:14px;margin-bottom:12px}
-    h1{margin:0 0 10px;font-size:2rem}.muted{color:var(--muted)}
-    .btn{display:block;width:100%;text-align:left;padding:10px;border:1px solid var(--line);background:#fff;border-radius:10px;cursor:pointer}
+    .btn{display:block;width:100%;text-align:left;padding:10px;border:1px solid var(--line);background:#fff;border-radius:10px;cursor:pointer;margin-bottom:8px}
     .btn.active{border-color:var(--accent);box-shadow: inset 0 0 0 1px var(--accent)}
+    .meta{color:var(--muted);font-size:.9rem}.hidden{display:none}
     .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:4px 10px;margin:0 8px 8px 0;background:#f7f3ed}
+    .signal{border:1px solid var(--line);border-radius:10px;padding:10px;margin:0 0 8px}
     a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
-    li{margin:8px 0}.hidden{display:none}
     @media(max-width:900px){.layout{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
 <main class="wrap">
   <h1>What is happening in the diverse intelligence and emergence engineering space of synthetic biology?</h1>
-  <p class="muted">Built from SuperGrok on X + alphaXiv/arXiv links. Primary-source oriented.</p>
-  <div class="card"><h3>Original prompt (one sentence)</h3><p>"what is happening in the diverse intelligence and emergence engineering space of synthetic biology?"</p></div>
+  <p class="meta">Global signals are a separate view; briefing view is exact run output.</p>
 
   <div class="layout">
     <aside class="panel">
-      <strong>Briefing Runs</strong>
-      <button class="btn active" onclick="showRun('v1')" data-id="v1">2026-03-03</button>
+      <h3>Views</h3>
+      <div id="nav"></div>
     </aside>
-    <section>
-      <div id="run-v1">
-        <div class="card">
-          <h3>One-sentence take</h3>
-          <p id="take"></p>
-          <p><strong>SuperGrok on X used:</strong> <span id="used"></span></p>
-          <p class="muted" id="proof"></p>
-        </div>
+    <section class="panel">
+      <div id="view-run" class="view">
+        <div class="card"><h3>Original prompt (one sentence)</h3><p>"what is happening in the diverse intelligence and emergence engineering space of synthetic biology?"</p></div>
+        <div class="card"><h3>Briefing (2026-03-03)</h3><p id="take"></p><p><strong>SuperGrok on X used:</strong> <span id="used"></span></p><p class="meta" id="proof"></p></div>
         <div class="card"><h3>Accounts</h3><div id="accounts"></div></div>
         <div class="card"><h3>Tweets (last 7 days)</h3><ol id="tweets"></ol></div>
         <div class="card"><h3>alphaXiv / arXiv papers</h3><ul id="papers"></ul></div>
-        <div class="card"><h3>Signals</h3><div id="signals"></div></div>
+      </div>
+      <div id="view-signals" class="view hidden">
+        <div class="card"><h3>Signals</h3><p class="meta">People only: each signal has all known links.</p><div id="signals"></div></div>
       </div>
     </section>
   </div>
 </main>
 <script>
-function showRun(id){
-  document.querySelectorAll('.btn').forEach(b=>b.classList.remove('active'));
-  document.querySelector(`[data-id="${id}"]`)?.classList.add('active');
-}
+function setActive(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(`view-${id}`).classList.remove('hidden');document.querySelectorAll('.btn').forEach(b=>b.classList.remove('active'));document.querySelector(`[data-id="${id}"]`)?.classList.add('active');}
 Promise.all([
   fetch('/data/v1.json').then(r=>r.json()),
   fetch('/data/signals.json').then(r=>r.json())
 ]).then(([v,sigs])=>{
+  nav.innerHTML=`<button class='btn active' data-id='run' onclick="setActive('run')">2026-03-03<div class='meta'>SuperGrok + alphaXiv run</div></button><button class='btn' data-id='signals' onclick="setActive('signals')">Signals<div class='meta'>Global people index</div></button>`;
   take.textContent=v.oneSentenceTake||'';
   used.textContent=v.usedSuperGrokOnX?'Yes':'No';
   proof.textContent=v.superGrokProof||'';
   accounts.innerHTML=(v.accounts||[]).map(a=>`<span class='pill'><a target='_blank' href='${a.exampleTweetUrl}'>${a.handle}</a></span>`).join('');
   tweets.innerHTML=(v.tweets||[]).map(t=>`<li><a target='_blank' href='${t.url}'>${t.author}</a> — ${t.whyItMatters}</li>`).join('');
-  papers.innerHTML=(v.papers||[]).map(p=>`<li><a target='_blank' href='${p.alphaXivUrl||p.arxivUrl}'>${p.title}</a> ${p.arxivUrl?`· <a target='_blank' href='${p.arxivUrl}'>arXiv</a>`:''} — ${p.whyItMatters}</li>`).join('');
-  signals.innerHTML=sigs.map(s=>`<div class='pill'><strong>${s.name}</strong> · ${(s.links||[]).map(l=>`<a target='_blank' href='${l.url}'>${l.label}</a>`).join(' · ')}</div>`).join('');
+  papers.innerHTML=(v.papers||[]).map(p=>`<li><a target='_blank' href='${p.alphaXivUrl||p.arxivUrl}'>${p.title}</a> ${p.arxivUrl?`· <a target='_blank' href='${p.arxivUrl}'>arXiv</a>`:''}</li>`).join('');
+  signals.innerHTML=sigs.map(s=>`<div class='signal'><strong>${s.name}</strong><div class='meta'>${s.type||''}</div><div>${(s.links||[]).map(l=>`<a target='_blank' href='${l.url}'>${l.label}</a>`).join(' · ')}</div></div>`).join('');
+  setActive('run');
 });
 </script>
 </body>
