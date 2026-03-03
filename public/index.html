@@ -25,6 +25,14 @@
   <h1>What is happening in the diverse intelligence and emergence engineering space of synthetic biology?</h1>
   <p class="meta"><a href="https://briefing-hub.founders-0e1.workers.dev" target="_blank">← All briefings (hub)</a></p>
   <p class="meta">Global signals are a separate view; briefing view is exact run output.</p>
+  <div class="card" style="margin-bottom:12px;display:flex;gap:10px;align-items:center;">
+    <button id="runBtn" class="btn" style="max-width:220px;margin:0;">Run again today</button>
+    <details>
+      <summary style="cursor:pointer">ℹ prompt</summary>
+      <pre id="runPromptView" style="white-space:pre-wrap;font-size:.82rem;max-width:760px;"></pre>
+    </details>
+    <span id="runStatus" class="meta"></span>
+  </div>
 
   <div class="layout">
     <aside class="panel">
@@ -47,6 +55,20 @@
 </main>
 <script>
 function setActive(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(`view-${id}`).classList.remove('hidden');document.querySelectorAll('.btn').forEach(b=>b.classList.remove('active'));document.querySelector(`[data-id="${id}"]`)?.classList.add('active');}
+const RUN_PROMPT = `You are producing a daily intelligence briefing for me.
+Topic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?
+Date: ${new Date().toISOString().slice(0,10)}
+Use Browser Use + SuperGrok on X and alphaXiv/arXiv.
+Format as email style with one-sentence take, Tweets (1 sentence + labeled link), Papers (1 sentence + labeled link).
+Update synthetic-bio-briefing with today's dated run and refresh global Signals.`;
+runPromptView.textContent = RUN_PROMPT;
+runBtn.onclick = async () => {
+  runStatus.textContent = 'sending...';
+  const r = await fetch('/api/run', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({ prompt: RUN_PROMPT })});
+  const j = await r.json().catch(()=>({}));
+  runStatus.textContent = j.ok ? 'sent to Slack trigger' : `failed (${j.error||r.status})`;
+};
+
 Promise.all([
   fetch('/data/v1.json').then(r=>r.json()),
   fetch('/data/signals.json').then(r=>r.json())
