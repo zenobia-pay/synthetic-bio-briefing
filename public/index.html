@@ -29,7 +29,7 @@
   <div class="layout">
     <aside class="panel">
       <strong>Briefing Runs</strong>
-      <button class="btn active" onclick="showRun('v1')" data-id="v1">v1 • today</button>
+      <button class="btn active" onclick="showRun('v1')" data-id="v1">2026-03-03</button>
     </aside>
     <section>
       <div id="run-v1">
@@ -42,6 +42,7 @@
         <div class="card"><h3>Accounts</h3><div id="accounts"></div></div>
         <div class="card"><h3>Tweets (last 7 days)</h3><ol id="tweets"></ol></div>
         <div class="card"><h3>alphaXiv / arXiv papers</h3><ul id="papers"></ul></div>
+        <div class="card"><h3>Signals</h3><div id="signals"></div></div>
       </div>
     </section>
   </div>
@@ -51,13 +52,17 @@ function showRun(id){
   document.querySelectorAll('.btn').forEach(b=>b.classList.remove('active'));
   document.querySelector(`[data-id="${id}"]`)?.classList.add('active');
 }
-fetch('/data/v1.json').then(r=>r.json()).then(v=>{
+Promise.all([
+  fetch('/data/v1.json').then(r=>r.json()),
+  fetch('/data/signals.json').then(r=>r.json())
+]).then(([v,sigs])=>{
   take.textContent=v.oneSentenceTake||'';
   used.textContent=v.usedSuperGrokOnX?'Yes':'No';
   proof.textContent=v.superGrokProof||'';
   accounts.innerHTML=(v.accounts||[]).map(a=>`<span class='pill'><a target='_blank' href='${a.exampleTweetUrl}'>${a.handle}</a></span>`).join('');
   tweets.innerHTML=(v.tweets||[]).map(t=>`<li><a target='_blank' href='${t.url}'>${t.author}</a> — ${t.whyItMatters}</li>`).join('');
   papers.innerHTML=(v.papers||[]).map(p=>`<li><a target='_blank' href='${p.alphaXivUrl||p.arxivUrl}'>${p.title}</a> ${p.arxivUrl?`· <a target='_blank' href='${p.arxivUrl}'>arXiv</a>`:''} — ${p.whyItMatters}</li>`).join('');
+  signals.innerHTML=sigs.map(s=>`<div class='pill'><strong>${s.name}</strong> · ${(s.links||[]).map(l=>`<a target='_blank' href='${l.url}'>${l.label}</a>`).join(' · ')}</div>`).join('');
 });
 </script>
 </body>

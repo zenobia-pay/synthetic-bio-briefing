@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Michael Levin",
+    "type": "person",
+    "links": [
+      {"label":"X","url":"https://x.com/drmichaellevin"},
+      {"label":"Tweet","url":"https://x.com/drmichaellevin/status/2027546414931132657"},
+      {"label":"Lab","url":"https://drmichaellevin.org"}
+    ]
+  },
+  {
+    "name": "Josh Bongard",
+    "type": "person",
+    "links": [
+      {"label":"X","url":"https://x.com/DoctorJosh"},
+      {"label":"Tweet","url":"https://x.com/DoctorJosh/status/2026831990251565365"},
+      {"label":"Research","url":"https://scholar.google.com/scholar?q=Josh+Bongard"}
+    ]
+  },
+  {
+    "name": "Alysson Muotri",
+    "type": "person",
+    "links": [
+      {"label":"X","url":"https://x.com/ANeuroExplorer"},
+      {"label":"Research","url":"https://scholar.google.com/scholar?q=Alysson+Muotri"}
+    ]
+  },
+  {
+    "name": "Cortical Labs team",
+    "type": "person",
+    "links": [
+      {"label":"X","url":"https://x.com/CorticalLabs"},
+      {"label":"Company","url":"https://corticallabs.com"}
+    ]
+  },
+  {
+    "name": "Bootstrapping Life-Inspired Machine Intelligence (authors)",
+    "type": "paper-authors",
+    "links": [
+      {"label":"alphaXiv","url":"https://www.alphaxiv.org/abs/2602.08079"},
+      {"label":"arXiv","url":"https://arxiv.org/abs/2602.08079"}
+    ]
+  },
+  {
+    "name": "Technological Approach to Mind Everywhere (authors)",
+    "type": "paper-authors",
+    "links": [
+      {"label":"alphaXiv","url":"https://www.alphaxiv.org/abs/2201.10346"},
+      {"label":"arXiv","url":"https://arxiv.org/abs/2201.10346"}
+    ]
+  }
+]
