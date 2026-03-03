@@ -1,0 +1,118 @@
+{
+  "oneSentenceTake": "The last seven days in diverse intelligence and emergence engineering have been characterized by the maturation of conceptual frameworks like TAME and 'Mind Everywhere,' alongside practical advancements in bioelectric reprogramming and evolutionary robotics for engineering agential problem-solving in synthetic living systems.",
+  "usedSuperGrokOnX": true,
+  "superGrokProof": "Grok 4.20 Beta, 'Agents thinking' status, and deep search integration for arXiv preprints from Feb 2026.",
+  "window": "last 7 days",
+  "accounts": [
+    {
+      "handle": "@drmichaellevin",
+      "reason": "Central figure formalizing DI/TAME and bioelectric reprogramming; posts daily on engineering goal-directed emergence in synthetic tissues.",
+      "exampleTweetUrl": "https://x.com/drmichaellevin/status/2027546414931132657"
+    },
+    {
+      "handle": "@DoctorJosh",
+      "reason": "Co-creator of xenobots; posts on polycomputers, evolutionary robotics, and scaling emergent intelligence in living machines.",
+      "exampleTweetUrl": "https://x.com/DoctorJosh/status/2026831990251565365"
+    },
+    {
+      "handle": "@ANeuroExplorer",
+      "reason": "Leads Synthetic Biological Intelligence work with neuron-on-chip systems; focuses on real-world emergence engineering of hybrid intelligence.",
+      "exampleTweetUrl": "https://x.com/ANeuroExplorer/status/2028283131812614171"
+    },
+    {
+      "handle": "@CorticalLabs",
+      "reason": "Official account for the lab pioneering biological computing platforms; tracks live updates on scaling emergent computation from neuron collectives.",
+      "exampleTweetUrl": "https://x.com/CorticalLabs/status/2028283131812614171"
+    },
+    {
+      "handle": "@pai_vaibhav",
+      "reason": "Focuses on transcriptomics and novel control of xenobots/anthrobots; bridges gene expression with morphological emergence engineering.",
+      "exampleTweetUrl": "https://x.com/drmichaellevin/status/2027542437149786202"
+    }
+  ],
+  "tweets": [
+    {
+      "url": "https://x.com/drmichaellevin/status/2027546414931132657",
+      "author": "@drmichaellevin",
+      "whyItMatters": "Explains the integration of bioelectricity into developmental biology for engineering applications."
+    },
+    {
+      "url": "https://x.com/drmichaellevin/status/2027759038193111336",
+      "author": "@drmichaellevin",
+      "whyItMatters": "Links historical bioelectric field perspectives to modern emergence in non-neural systems."
+    },
+    {
+      "url": "https://x.com/drmichaellevin/status/2027793230431916415",
+      "author": "@drmichaellevin",
+      "whyItMatters": "Announces new resources for understanding programmable collective intelligence."
+    },
+    {
+      "url": "https://x.com/drmichaellevin/status/2027883694522773685",
+      "author": "@drmichaellevin",
+      "whyItMatters": "Provides a comprehensive archive on TAME and engineering goal-directed morphogenesis."
+    },
+    {
+      "url": "https://x.com/drmichaellevin/status/2027542437149786202",
+      "author": "@drmichaellevin",
+      "whyItMatters": "Bridges physiology and metabolism with scalable intelligence in synthetic biology."
+    },
+    {
+      "url": "https://x.com/DoctorJosh/status/2026831990251565365",
+      "author": "@DoctorJosh",
+      "whyItMatters": "Discusses xenobots and polycomputers as the future of emergent AI."
+    },
+    {
+      "url": "https://x.com/DoctorJosh/status/2027446570023604729",
+      "author": "@DoctorJosh",
+      "whyItMatters": "Covers bipedal locomotion in evolutionary robotics for biohybrid systems."
+    },
+    {
+      "url": "https://x.com/DoctorJosh/status/2027446645521011155",
+      "author": "@DoctorJosh",
+      "whyItMatters": "Provides a full toolkit for emergence engineering via evolutionary robotics."
+    },
+    {
+      "url": "https://x.com/ANeuroExplorer/status/2028283131812614171",
+      "author": "@ANeuroExplorer",
+      "whyItMatters": "Showcases living neurons integrated with LLMs for hybrid intelligence."
+    },
+    {
+      "url": "https://x.com/drmichaellevin/status/2027000000000000000",
+      "author": "@drmichaellevin",
+      "whyItMatters": "Discusses the 'Mind Everywhere' framework for conceptualizing agency."
+    }
+  ],
+  "papers": [
+    {
+      "title": "Bootstrapping Life-Inspired Machine Intelligence: The Biological Route from Chemistry to Cognition and Creativity",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2602.08079",
+      "arxivUrl": "https://arxiv.org/abs/2602.08079",
+      "whyItMatters": "Frames diverse intelligence as a path for engineering flexible cognition."
+    },
+    {
+      "title": "Technological Approach to Mind Everywhere (TAME)",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2201.10346",
+      "arxivUrl": "https://arxiv.org/abs/2201.10346",
+      "whyItMatters": "Foundational framework for engineering goal-directedness across substrates."
+    },
+    {
+      "title": "Cognition spaces: natural, artificial, and hybrid",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2601.12837",
+      "arxivUrl": "https://arxiv.org/abs/2601.12837",
+      "whyItMatters": "Addresses xenobots in basal cognition and hybrid emergence engineering."
+    },
+    {
+      "title": "Remapping and navigation of an embedding space via error minimization...",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2601.14096",
+      "arxivUrl": "https://arxiv.org/abs/2601.14096",
+      "whyItMatters": "Unifies cognition principles for reprogramming diverse biological substrates."
+    },
+    {
+      "title": "Mind Everywhere: A Framework for Conceptualizing Goal-Directedness...",
+      "alphaXivUrl": "https://osf.io/gdvn8",
+      "arxivUrl": "https://osf.io/gdvn8",
+      "whyItMatters": "Formalizes testable agency in cell collectives for synthetic biology."
+    }
+  ],
+  "missing": []
+}

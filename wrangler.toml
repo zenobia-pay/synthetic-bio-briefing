@@ -1,0 +1,7 @@
+name = "synthetic-bio-briefing"
+main = "src/index.ts"
+compatibility_date = "2026-03-03"
+account_id = "0e1651bc459f3017e816ba2263e0807a"
+
+[assets]
+directory = "./public"
