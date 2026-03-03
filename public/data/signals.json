@@ -1,52 +1,133 @@
 [
   {
-    "name": "Michael Levin",
-    "type": "person",
-    "links": [
-      {"label":"X","url":"https://x.com/drmichaellevin"},
-      {"label":"Tweet","url":"https://x.com/drmichaellevin/status/2027546414931132657"},
-      {"label":"Lab","url":"https://drmichaellevin.org"}
+    "kind": "twitter",
+    "name": "@drmichaellevin",
+    "topLink": "https://x.com/drmichaellevin",
+    "items": [
+      {
+        "label": "Tweet",
+        "url": "https://x.com/drmichaellevin/status/2027546414931132657",
+        "excerpt": "Explains the integration of bioelectricity into developmental biology for engineering applications."
+      },
+      {
+        "label": "Tweet",
+        "url": "https://x.com/drmichaellevin/status/2027759038193111336",
+        "excerpt": "Links historical bioelectric field perspectives to modern emergence in non-neural systems."
+      },
+      {
+        "label": "Tweet",
+        "url": "https://x.com/drmichaellevin/status/2027793230431916415",
+        "excerpt": "Announces new resources for understanding programmable collective intelligence."
+      },
+      {
+        "label": "Tweet",
+        "url": "https://x.com/drmichaellevin/status/2027883694522773685",
+        "excerpt": "Provides a comprehensive archive on TAME and engineering goal-directed morphogenesis."
+      },
+      {
+        "label": "Tweet",
+        "url": "https://x.com/drmichaellevin/status/2027542437149786202",
+        "excerpt": "Bridges physiology and metabolism with scalable intelligence in synthetic biology."
+      },
+      {
+        "label": "Tweet",
+        "url": "https://x.com/drmichaellevin/status/2027000000000000000",
+        "excerpt": "Discusses the 'Mind Everywhere' framework for conceptualizing agency."
+      }
     ]
   },
   {
-    "name": "Josh Bongard",
-    "type": "person",
-    "links": [
-      {"label":"X","url":"https://x.com/DoctorJosh"},
-      {"label":"Tweet","url":"https://x.com/DoctorJosh/status/2026831990251565365"},
-      {"label":"Research","url":"https://scholar.google.com/scholar?q=Josh+Bongard"}
+    "kind": "twitter",
+    "name": "@DoctorJosh",
+    "topLink": "https://x.com/DoctorJosh",
+    "items": [
+      {
+        "label": "Tweet",
+        "url": "https://x.com/DoctorJosh/status/2026831990251565365",
+        "excerpt": "Discusses xenobots and polycomputers as the future of emergent AI."
+      },
+      {
+        "label": "Tweet",
+        "url": "https://x.com/DoctorJosh/status/2027446570023604729",
+        "excerpt": "Covers bipedal locomotion in evolutionary robotics for biohybrid systems."
+      },
+      {
+        "label": "Tweet",
+        "url": "https://x.com/DoctorJosh/status/2027446645521011155",
+        "excerpt": "Provides a full toolkit for emergence engineering via evolutionary robotics."
+      }
     ]
   },
   {
-    "name": "Alysson Muotri",
-    "type": "person",
-    "links": [
-      {"label":"X","url":"https://x.com/ANeuroExplorer"},
-      {"label":"Research","url":"https://scholar.google.com/scholar?q=Alysson+Muotri"}
+    "kind": "twitter",
+    "name": "@ANeuroExplorer",
+    "topLink": "https://x.com/ANeuroExplorer",
+    "items": [
+      {
+        "label": "Tweet",
+        "url": "https://x.com/ANeuroExplorer/status/2028283131812614171",
+        "excerpt": "Showcases living neurons integrated with LLMs for hybrid intelligence."
+      }
     ]
   },
   {
-    "name": "Cortical Labs team",
-    "type": "person",
-    "links": [
-      {"label":"X","url":"https://x.com/CorticalLabs"},
-      {"label":"Company","url":"https://corticallabs.com"}
+    "kind": "paper",
+    "name": "Bootstrapping Life-Inspired Machine Intelligence: The Biological Route from Chemistry to Cognition and Creativity",
+    "topLink": "https://www.alphaxiv.org/abs/2602.08079",
+    "items": [
+      {
+        "label": "Paper excerpt",
+        "url": "https://www.alphaxiv.org/abs/2602.08079",
+        "excerpt": "Frames diverse intelligence as a path for engineering flexible cognition."
+      }
     ]
   },
   {
-    "name": "Bootstrapping Life-Inspired Machine Intelligence (authors)",
-    "type": "paper-authors",
-    "links": [
-      {"label":"alphaXiv","url":"https://www.alphaxiv.org/abs/2602.08079"},
-      {"label":"arXiv","url":"https://arxiv.org/abs/2602.08079"}
+    "kind": "paper",
+    "name": "Technological Approach to Mind Everywhere (TAME)",
+    "topLink": "https://www.alphaxiv.org/abs/2201.10346",
+    "items": [
+      {
+        "label": "Paper excerpt",
+        "url": "https://www.alphaxiv.org/abs/2201.10346",
+        "excerpt": "Foundational framework for engineering goal-directedness across substrates."
+      }
     ]
   },
   {
-    "name": "Technological Approach to Mind Everywhere (authors)",
-    "type": "paper-authors",
-    "links": [
-      {"label":"alphaXiv","url":"https://www.alphaxiv.org/abs/2201.10346"},
-      {"label":"arXiv","url":"https://arxiv.org/abs/2201.10346"}
+    "kind": "paper",
+    "name": "Cognition spaces: natural, artificial, and hybrid",
+    "topLink": "https://www.alphaxiv.org/abs/2601.12837",
+    "items": [
+      {
+        "label": "Paper excerpt",
+        "url": "https://www.alphaxiv.org/abs/2601.12837",
+        "excerpt": "Addresses xenobots in basal cognition and hybrid emergence engineering."
+      }
+    ]
+  },
+  {
+    "kind": "paper",
+    "name": "Remapping and navigation of an embedding space via error minimization...",
+    "topLink": "https://www.alphaxiv.org/abs/2601.14096",
+    "items": [
+      {
+        "label": "Paper excerpt",
+        "url": "https://www.alphaxiv.org/abs/2601.14096",
+        "excerpt": "Unifies cognition principles for reprogramming diverse biological substrates."
+      }
+    ]
+  },
+  {
+    "kind": "paper",
+    "name": "Mind Everywhere: A Framework for Conceptualizing Goal-Directedness...",
+    "topLink": "https://osf.io/gdvn8",
+    "items": [
+      {
+        "label": "Paper excerpt",
+        "url": "https://osf.io/gdvn8",
+        "excerpt": "Formalizes testable agency in cell collectives for synthetic biology."
+      }
     ]
   }
 ]

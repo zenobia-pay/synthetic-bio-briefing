@@ -58,7 +58,12 @@ Promise.all([
   accounts.innerHTML=(v.accounts||[]).map(a=>`<span class='pill'><a target='_blank' href='${a.exampleTweetUrl}'>${a.handle}</a></span>`).join('');
   tweets.innerHTML=(v.tweets||[]).map(t=>`<li><a target='_blank' href='${t.url}'>${t.author}</a> — ${t.whyItMatters}</li>`).join('');
   papers.innerHTML=(v.papers||[]).map(p=>`<li><a target='_blank' href='${p.alphaXivUrl||p.arxivUrl}'>${p.title}</a> ${p.arxivUrl?`· <a target='_blank' href='${p.arxivUrl}'>arXiv</a>`:''}</li>`).join('');
-  signals.innerHTML=sigs.map(s=>`<div class='signal'><strong>${s.name}</strong><div class='meta'>${s.type||''}</div><div>${(s.links||[]).map(l=>`<a target='_blank' href='${l.url}'>${l.label}</a>`).join(' · ')}</div></div>`).join('');
+  signals.innerHTML=sigs.map(s=>`
+    <div class='signal'>
+      <div><strong><a target='_blank' href='${s.topLink}'>${s.name}</a></strong> <span class='meta'>${s.kind||''}</span></div>
+      <ul>${(s.items||[]).map(it=>`<li>${it.excerpt||''} → <a target='_blank' href='${it.url}'>${it.label||'link'}</a></li>`).join('')}</ul>
+    </div>
+  `).join('');
   setActive('run');
 });
 </script>
