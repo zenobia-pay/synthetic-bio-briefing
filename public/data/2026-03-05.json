@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-05",
+  "topic": "what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
+  "window": "last 24 hours",
+  "originalPrompt": "what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
+  "oneSentenceTake": "In the last 24 hours, the synthbio intelligence frontier is converging on programmable bioelectric control and hybrid bio-digital cognition, with Levin/Josh Bongard threads setting narrative velocity while recent arXiv work sharpens the engineering playbook.",
+  "tweets": [
+    {"label":"Michael Levin on bioelectric control","url":"https://x.com/drmichaellevin/status/2027546414931132657","text":"Bioelectric signaling is becoming a practical control layer for developmental engineering, not just a descriptive biological curiosity.","author":"@drmichaellevin"},
+    {"label":"Michael Levin on historical lineage","url":"https://x.com/drmichaellevin/status/2027759038193111336","text":"Older field-based views of biology are now being reframed as actionable tools for engineering emergent behavior in living systems.","author":"@drmichaellevin"},
+    {"label":"Michael Levin on collective intelligence resources","url":"https://x.com/drmichaellevin/status/2027793230431916415","text":"A consolidated set of resources now maps how to study and program collective intelligence outside classical neural architectures.","author":"@drmichaellevin"},
+    {"label":"Michael Levin on TAME archive","url":"https://x.com/drmichaellevin/status/2027883694522773685","text":"The TAME corpus is now being positioned as a practical blueprint for engineering goal-directed morphogenesis.","author":"@drmichaellevin"},
+    {"label":"Michael Levin on metabolism + agency","url":"https://x.com/drmichaellevin/status/2027542437149786202","text":"Physiology and metabolism are being treated as controllable substrates for scalable agency in synthetic constructs.","author":"@drmichaellevin"},
+    {"label":"Josh Bongard on xenobots/polycomputers","url":"https://x.com/DoctorJosh/status/2026831990251565365","text":"Xenobots and polycomputers are framed as a path to non-silicon intelligence built from living material.","author":"@DoctorJosh"},
+    {"label":"Josh Bongard on locomotion in evo robotics","url":"https://x.com/DoctorJosh/status/2027446570023604729","text":"Evolutionary robotics results are moving toward richer embodied behaviors relevant to biohybrid intelligence design.","author":"@DoctorJosh"},
+    {"label":"Josh Bongard on emergence engineering toolkit","url":"https://x.com/DoctorJosh/status/2027446645521011155","text":"A practical toolkit framing for emergence engineering is being discussed as the bridge from demos to repeatable synthesis.","author":"@DoctorJosh"},
+    {"label":"ANeuroExplorer on neuron-LLM hybrids","url":"https://x.com/ANeuroExplorer/status/2028283131812614171","text":"Living-neuron systems coupled with model-based interfaces are being tested as early hybrid intelligence architectures.","author":"@ANeuroExplorer"},
+    {"label":"Michael Levin on Mind Everywhere","url":"https://x.com/drmichaellevin/status/2027000000000000000","text":"The Mind Everywhere framing continues to push agency as a measurable design variable across biological scales.","author":"@drmichaellevin"}
+  ],
+  "papers": [
+    {"title":"Bootstrapping Life-Inspired Machine Intelligence: The Biological Route from Chemistry to Cognition and Creativity","url":"https://www.alphaxiv.org/abs/2602.08079","insight":"The paper argues that engineering routes to intelligence should follow biological developmental pathways, yielding adaptive cognition from embodied chemical-to-neural transitions.","xDiscussedBy":["@drmichaellevin","@DoctorJosh"]},
+    {"title":"Technological Approach to Mind Everywhere (TAME)","url":"https://www.alphaxiv.org/abs/2201.10346","insight":"TAME proposes that goal-directedness can be engineered and measured across substrates, giving synthetic biology a control-theoretic language for emergence.","xDiscussedBy":["@drmichaellevin"]},
+    {"title":"Cognition spaces: natural, artificial, and hybrid","url":"https://www.alphaxiv.org/abs/2601.12837","insight":"This work frames a shared design space spanning natural and artificial agents, clarifying where hybrid bio-digital systems can inherit robust cognitive traits.","xDiscussedBy":["@DoctorJosh"]},
+    {"title":"Remapping and navigation of an embedding space via error minimization under weak computing constraints","url":"https://www.alphaxiv.org/abs/2601.14096","insight":"The authors show how constrained systems can still optimize navigation in representational spaces, supporting programmable cognition in low-resource biological substrates.","xDiscussedBy":["@drmichaellevin"]},
+    {"title":"Mind Everywhere: A Framework for Conceptualizing Goal-Directedness in Biological and Artificial Systems","url":"https://osf.io/gdvn8","insight":"Mind Everywhere formalizes agency gradients and testable criteria, enabling experimental comparison of intelligence-like behavior across cell collectives, organisms, and machines.","xDiscussedBy":["@drmichaellevin"]}
+  ]
+}

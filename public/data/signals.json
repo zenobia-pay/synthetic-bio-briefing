@@ -1,133 +1,55 @@
 [
   {
-    "kind": "twitter",
-    "name": "@drmichaellevin",
-    "topLink": "https://x.com/drmichaellevin",
-    "items": [
-      {
-        "excerpt": "Explains the integration of bioelectricity into developmental biology for engineering applications.",
-        "tweetUrl": "https://x.com/drmichaellevin/status/2027546414931132657",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      },
-      {
-        "excerpt": "Links historical bioelectric field perspectives to modern emergence in non-neural systems.",
-        "tweetUrl": "https://x.com/drmichaellevin/status/2027759038193111336",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      },
-      {
-        "excerpt": "Announces new resources for understanding programmable collective intelligence.",
-        "tweetUrl": "https://x.com/drmichaellevin/status/2027793230431916415",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      },
-      {
-        "excerpt": "Provides a comprehensive archive on TAME and engineering goal-directed morphogenesis.",
-        "tweetUrl": "https://x.com/drmichaellevin/status/2027883694522773685",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      },
-      {
-        "excerpt": "Bridges physiology and metabolism with scalable intelligence in synthetic biology.",
-        "tweetUrl": "https://x.com/drmichaellevin/status/2027542437149786202",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      },
-      {
-        "excerpt": "Discusses the 'Mind Everywhere' framework for conceptualizing agency.",
-        "tweetUrl": "https://x.com/drmichaellevin/status/2027000000000000000",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      }
-    ]
+    "name": "Michael Levin",
+    "role": "researcher/author/account",
+    "links": {
+      "x": "https://x.com/drmichaellevin",
+      "lab": "https://drmichaellevin.org/",
+      "papers": [
+        "https://www.alphaxiv.org/abs/2201.10346",
+        "https://osf.io/gdvn8"
+      ]
+    }
   },
   {
-    "kind": "twitter",
-    "name": "@DoctorJosh",
-    "topLink": "https://x.com/DoctorJosh",
-    "items": [
-      {
-        "excerpt": "Discusses xenobots and polycomputers as the future of emergent AI.",
-        "tweetUrl": "https://x.com/DoctorJosh/status/2026831990251565365",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      },
-      {
-        "excerpt": "Covers bipedal locomotion in evolutionary robotics for biohybrid systems.",
-        "tweetUrl": "https://x.com/DoctorJosh/status/2027446570023604729",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      },
-      {
-        "excerpt": "Provides a full toolkit for emergence engineering via evolutionary robotics.",
-        "tweetUrl": "https://x.com/DoctorJosh/status/2027446645521011155",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      }
-    ]
+    "name": "Josh Bongard",
+    "role": "researcher/author/account",
+    "links": {
+      "x": "https://x.com/DoctorJosh",
+      "website": "https://www.cs.uvm.edu/~jbongard/",
+      "papers": [
+        "https://www.alphaxiv.org/abs/2601.12837"
+      ]
+    }
   },
   {
-    "kind": "twitter",
-    "name": "@ANeuroExplorer",
-    "topLink": "https://x.com/ANeuroExplorer",
-    "items": [
-      {
-        "excerpt": "Showcases living neurons integrated with LLMs for hybrid intelligence.",
-        "tweetUrl": "https://x.com/ANeuroExplorer/status/2028283131812614171",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      }
-    ]
+    "name": "A Neuro Explorer",
+    "role": "account",
+    "links": {
+      "x": "https://x.com/ANeuroExplorer"
+    }
   },
   {
-    "kind": "paper",
-    "name": "Bootstrapping Life-Inspired Machine Intelligence: The Biological Route from Chemistry to Cognition and Creativity",
-    "topLink": "https://www.alphaxiv.org/abs/2602.08079",
-    "items": [
-      {
-        "excerpt": "Frames diverse intelligence as a path for engineering flexible cognition.",
-        "sourceUrl": "https://www.alphaxiv.org/abs/2602.08079",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      }
-    ]
+    "name": "Cortical Labs",
+    "role": "account/company",
+    "links": {
+      "x": "https://x.com/CorticalLabs",
+      "website": "https://corticallabs.com/"
+    }
   },
   {
-    "kind": "paper",
-    "name": "Technological Approach to Mind Everywhere (TAME)",
-    "topLink": "https://www.alphaxiv.org/abs/2201.10346",
-    "items": [
-      {
-        "excerpt": "Foundational framework for engineering goal-directedness across substrates.",
-        "sourceUrl": "https://www.alphaxiv.org/abs/2201.10346",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      }
-    ]
+    "name": "Vaibhav Pai",
+    "role": "researcher/account",
+    "links": {
+      "x": "https://x.com/pai_vaibhav"
+    }
   },
   {
-    "kind": "paper",
-    "name": "Cognition spaces: natural, artificial, and hybrid",
-    "topLink": "https://www.alphaxiv.org/abs/2601.12837",
-    "items": [
-      {
-        "excerpt": "Addresses xenobots in basal cognition and hybrid emergence engineering.",
-        "sourceUrl": "https://www.alphaxiv.org/abs/2601.12837",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      }
-    ]
-  },
-  {
-    "kind": "paper",
-    "name": "Remapping and navigation of an embedding space via error minimization...",
-    "topLink": "https://www.alphaxiv.org/abs/2601.14096",
-    "items": [
-      {
-        "excerpt": "Unifies cognition principles for reprogramming diverse biological substrates.",
-        "sourceUrl": "https://www.alphaxiv.org/abs/2601.14096",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      }
-    ]
-  },
-  {
-    "kind": "paper",
-    "name": "Mind Everywhere: A Framework for Conceptualizing Goal-Directedness...",
-    "topLink": "https://osf.io/gdvn8",
-    "items": [
-      {
-        "excerpt": "Formalizes testable agency in cell collectives for synthetic biology.",
-        "sourceUrl": "https://osf.io/gdvn8",
-        "briefingUrl": "https://synthetic-bio-briefing.founders-0e1.workers.dev#view-run"
-      }
-    ]
+    "name": "Bootstrapping Life-Inspired Machine Intelligence authors",
+    "role": "authors",
+    "links": {
+      "paper": "https://www.alphaxiv.org/abs/2602.08079",
+      "arxiv": "https://arxiv.org/abs/2602.08079"
+    }
   }
 ]
