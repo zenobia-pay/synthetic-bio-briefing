@@ -1,0 +1,177 @@
+{
+  "date": "2026-03-06",
+  "files": [
+    {
+      "path": "/data/runs/2026-03-06/briefing-rollup.json",
+      "bytes": 9823
+    },
+    {
+      "path": "/data/runs/2026-03-06/consolidation/rejections.json",
+      "bytes": 2
+    },
+    {
+      "path": "/data/runs/2026-03-06/consolidation/selection.json",
+      "bytes": 2391
+    },
+    {
+      "path": "/data/runs/2026-03-06/one-pager.md",
+      "bytes": 462
+    },
+    {
+      "path": "/data/runs/2026-03-06/raw-index.json",
+      "bytes": 4806
+    },
+    {
+      "path": "/data/runs/2026-03-06/run-status.json",
+      "bytes": 3675
+    },
+    {
+      "path": "/data/runs/2026-03-06/run-story.md",
+      "bytes": 413
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-01-papers-alphaxiv/normalized.json",
+      "bytes": 3559
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-01-papers-alphaxiv/prompt.txt",
+      "bytes": 233
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-01-papers-alphaxiv/raw.json",
+      "bytes": 3989
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-01-papers-alphaxiv/status.json",
+      "bytes": 329
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-01-papers-alphaxiv/story.md",
+      "bytes": 112
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-02-supergrok-topic/normalized.json",
+      "bytes": 90
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-02-supergrok-topic/prompt.txt",
+      "bytes": 403
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-02-supergrok-topic/raw.json",
+      "bytes": 233
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-02-supergrok-topic/status.json",
+      "bytes": 368
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-02-supergrok-topic/story.md",
+      "bytes": 91
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-03-supergrok-paper-discussion/normalized.json",
+      "bytes": 5112
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-03-supergrok-paper-discussion/prompt.txt",
+      "bytes": 57
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-03-supergrok-paper-discussion/raw.json",
+      "bytes": 5112
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-03-supergrok-paper-discussion/status.json",
+      "bytes": 423
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-03-supergrok-paper-discussion/story.md",
+      "bytes": 108
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-04-supergrok-signals/normalized.json",
+      "bytes": 82
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-04-supergrok-signals/prompt.txt",
+      "bytes": 370
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-04-supergrok-signals/raw.json",
+      "bytes": 225
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-04-supergrok-signals/status.json",
+      "bytes": 364
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-04-supergrok-signals/story.md",
+      "bytes": 76
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-05-supergrok-history-updates/normalized.json",
+      "bytes": 82
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-05-supergrok-history-updates/prompt.txt",
+      "bytes": 288
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-05-supergrok-history-updates/raw.json",
+      "bytes": 225
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-05-supergrok-history-updates/status.json",
+      "bytes": 376
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-05-supergrok-history-updates/story.md",
+      "bytes": 69
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-06-exa-people/normalized.json",
+      "bytes": 1239
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-06-exa-people/prompt.txt",
+      "bytes": 48
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-06-exa-people/raw.json",
+      "bytes": 1309
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-06-exa-people/status.json",
+      "bytes": 337
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-06-exa-people/story.md",
+      "bytes": 85
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-07-youtube-search/normalized.json",
+      "bytes": 1667
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-07-youtube-search/prompt.txt",
+      "bytes": 548
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-07-youtube-search/raw.json",
+      "bytes": 3545
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-07-youtube-search/status.json",
+      "bytes": 328
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-07-youtube-search/story.md",
+      "bytes": 92
+    },
+    {
+      "path": "/data/runs/2026-03-06/steps/step-08-consolidation/status.json",
+      "bytes": 472
+    }
+  ]
+}

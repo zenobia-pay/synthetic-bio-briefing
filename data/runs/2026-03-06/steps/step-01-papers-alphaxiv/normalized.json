@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+    "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.03276",
+    "arxivUrl": "https://arxiv.org/abs/2603.03276",
+    "insight": "The visual world offers a critical axis for advancing foundation models beyond language. Despite growing interest in this direction, the design space for native multimodal models remains opaque. We provide empirical clar..."
+  },
+  {
+    "title": "Speculative Speculative Decoding",
+    "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.03251",
+    "arxivUrl": "https://arxiv.org/abs/2603.03251",
+    "insight": "Autoregressive decoding is bottlenecked by its sequential nature. Speculative decoding has become a standard way to accelerate inference by using a fast draft model to predict upcoming tokens from a slower target model, ..."
+  },
+  {
+    "title": "Replaying pre-training data improves fine-tuning",
+    "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.04964",
+    "arxivUrl": "https://arxiv.org/abs/2603.04964",
+    "insight": "To obtain a language model for a target domain (e.g. math), the current paradigm is to pre-train on a vast amount of generic web text and then fine-tune on the relatively limited amount of target data. Typically, generic..."
+  },
+  {
+    "title": "Helios: Real Real-Time Long Video Generation Model",
+    "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.04379",
+    "arxivUrl": "https://arxiv.org/abs/2603.04379",
+    "insight": "We introduce Helios, the first 14B video generation model that runs at 19.5 FPS on a single NVIDIA H100 GPU and supports minute-scale generation while matching the quality of a strong baseline. We make breakthroughs alon..."
+  },
+  {
+    "title": "RealWonder: Real-Time Physical Action-Conditioned Video Generation",
+    "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.05449",
+    "arxivUrl": "https://arxiv.org/abs/2603.05449",
+    "insight": "Current video generation models cannot simulate physical consequences of 3D actions like forces and robotic manipulations, as they lack structural understanding of how actions affect 3D scenes. We present RealWonder, the..."
+  },
+  {
+    "title": "Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning",
+    "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.03818",
+    "arxivUrl": "https://arxiv.org/abs/2603.03818",
+    "insight": "Continual learning is a long-standing challenge in robot policy learning, where a policy must acquire new skills over time without catastrophically forgetting previously learned ones. While prior work has extensively stu..."
+  },
+  {
+    "title": "Analysis of the Riemann Zeta Function via Recursive Taylor Expansions",
+    "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.05122",
+    "arxivUrl": "https://arxiv.org/abs/2603.05122",
+    "insight": "We present an unconditional proof that non-trivial zeros of the Riemann Zeta function must lie strictly on the critical line $\\text{Re}(s) = 0.5$. By defining a recursive path of Taylor expansions originating from the do..."
+  },
+  {
+    "title": "Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery",
+    "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.04735",
+    "arxivUrl": "https://arxiv.org/abs/2603.04735",
+    "insight": "This paper demonstrates that artificial intelligence can accelerate mathematical discovery by autonomously solving an open problem in theoretical physics. We present a neuro-symbolic system, combining the Gemini Deep Thi..."
+  }
+]

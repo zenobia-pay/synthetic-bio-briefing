@@ -1,0 +1,5 @@
+Open https://x.com then open SuperGrok.
+Time window requirement: ONLY posts from the last 24 hours.
+Ask SuperGrok EXACTLY THIS:
+"What is the latest in What is the latest in synthetic biology tools, models, and labs? in the last 24 hours? Return only high-signal NEW X posts from the last 24 hours, with direct status URLs and exact tweet text."
+Return strict JSON with tweet URLs and verbatim text only.

@@ -1,0 +1,7 @@
+Open X SuperGrok.
+For paper title: {paper_title}
+Time window requirement: ONLY posts from the last 24 hours.
+Ask SuperGrok EXACTLY THIS:
+"what are people saying about this exact paper title?"
+Then constrain to last 24 hours and return direct status URLs with verbatim tweet text.
+Return strict JSON only.

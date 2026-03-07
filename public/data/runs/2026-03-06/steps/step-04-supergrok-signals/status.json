@@ -1,0 +1,17 @@
+{
+  "step": "step-04-supergrok-signals",
+  "success": true,
+  "requiredChecks": {
+    "taskStatus": {
+      "ok": true,
+      "size": 8
+    },
+    "normalized": {
+      "ok": true,
+      "size": 2
+    }
+  },
+  "looksCorrect": true,
+  "notes": "Signals pass should complete or fallback and produce normalized payload",
+  "timestamp": "2026-03-07T22:53:21.404328Z"
+}

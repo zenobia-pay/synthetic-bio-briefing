@@ -1,0 +1,104 @@
+[
+  {
+    "paper": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+    "prompt": "Open X SuperGrok.\nFor paper title: Beyond Language Modeling: An Exploration of Multimodal Pretraining\nTime window requirement: ONLY posts from the last 24 hours.\nAsk SuperGrok EXACTLY THIS:\n\"what are people saying about this exact paper title?\"\nThen constrain to last 24 hours and return direct status URLs with verbatim tweet text.\nReturn strict JSON only.",
+    "raw": {
+      "session": null,
+      "task": null,
+      "status": {
+        "status": "fallback",
+        "output": "{\"note\": \"step-03 per-paper fallback\", \"error\": \"Missing BROWSER_USE_API_KEY\"}"
+      },
+      "error": "Missing BROWSER_USE_API_KEY"
+    },
+    "normalized": {
+      "note": "step-03 per-paper fallback",
+      "error": "Missing BROWSER_USE_API_KEY"
+    }
+  },
+  {
+    "paper": "Speculative Speculative Decoding",
+    "prompt": "Open X SuperGrok.\nFor paper title: Speculative Speculative Decoding\nTime window requirement: ONLY posts from the last 24 hours.\nAsk SuperGrok EXACTLY THIS:\n\"what are people saying about this exact paper title?\"\nThen constrain to last 24 hours and return direct status URLs with verbatim tweet text.\nReturn strict JSON only.",
+    "raw": {
+      "session": null,
+      "task": null,
+      "status": {
+        "status": "fallback",
+        "output": "{\"note\": \"step-03 per-paper fallback\", \"error\": \"Missing BROWSER_USE_API_KEY\"}"
+      },
+      "error": "Missing BROWSER_USE_API_KEY"
+    },
+    "normalized": {
+      "note": "step-03 per-paper fallback",
+      "error": "Missing BROWSER_USE_API_KEY"
+    }
+  },
+  {
+    "paper": "Replaying pre-training data improves fine-tuning",
+    "prompt": "Open X SuperGrok.\nFor paper title: Replaying pre-training data improves fine-tuning\nTime window requirement: ONLY posts from the last 24 hours.\nAsk SuperGrok EXACTLY THIS:\n\"what are people saying about this exact paper title?\"\nThen constrain to last 24 hours and return direct status URLs with verbatim tweet text.\nReturn strict JSON only.",
+    "raw": {
+      "session": null,
+      "task": null,
+      "status": {
+        "status": "fallback",
+        "output": "{\"note\": \"step-03 per-paper fallback\", \"error\": \"Missing BROWSER_USE_API_KEY\"}"
+      },
+      "error": "Missing BROWSER_USE_API_KEY"
+    },
+    "normalized": {
+      "note": "step-03 per-paper fallback",
+      "error": "Missing BROWSER_USE_API_KEY"
+    }
+  },
+  {
+    "paper": "Helios: Real Real-Time Long Video Generation Model",
+    "prompt": "Open X SuperGrok.\nFor paper title: Helios: Real Real-Time Long Video Generation Model\nTime window requirement: ONLY posts from the last 24 hours.\nAsk SuperGrok EXACTLY THIS:\n\"what are people saying about this exact paper title?\"\nThen constrain to last 24 hours and return direct status URLs with verbatim tweet text.\nReturn strict JSON only.",
+    "raw": {
+      "session": null,
+      "task": null,
+      "status": {
+        "status": "fallback",
+        "output": "{\"note\": \"step-03 per-paper fallback\", \"error\": \"Missing BROWSER_USE_API_KEY\"}"
+      },
+      "error": "Missing BROWSER_USE_API_KEY"
+    },
+    "normalized": {
+      "note": "step-03 per-paper fallback",
+      "error": "Missing BROWSER_USE_API_KEY"
+    }
+  },
+  {
+    "paper": "RealWonder: Real-Time Physical Action-Conditioned Video Generation",
+    "prompt": "Open X SuperGrok.\nFor paper title: RealWonder: Real-Time Physical Action-Conditioned Video Generation\nTime window requirement: ONLY posts from the last 24 hours.\nAsk SuperGrok EXACTLY THIS:\n\"what are people saying about this exact paper title?\"\nThen constrain to last 24 hours and return direct status URLs with verbatim tweet text.\nReturn strict JSON only.",
+    "raw": {
+      "session": null,
+      "task": null,
+      "status": {
+        "status": "fallback",
+        "output": "{\"note\": \"step-03 per-paper fallback\", \"error\": \"Missing BROWSER_USE_API_KEY\"}"
+      },
+      "error": "Missing BROWSER_USE_API_KEY"
+    },
+    "normalized": {
+      "note": "step-03 per-paper fallback",
+      "error": "Missing BROWSER_USE_API_KEY"
+    }
+  },
+  {
+    "paper": "Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning",
+    "prompt": "Open X SuperGrok.\nFor paper title: Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning\nTime window requirement: ONLY posts from the last 24 hours.\nAsk SuperGrok EXACTLY THIS:\n\"what are people saying about this exact paper title?\"\nThen constrain to last 24 hours and return direct status URLs with verbatim tweet text.\nReturn strict JSON only.",
+    "raw": {
+      "session": null,
+      "task": null,
+      "status": {
+        "status": "fallback",
+        "output": "{\"note\": \"step-03 per-paper fallback\", \"error\": \"Missing BROWSER_USE_API_KEY\"}"
+      },
+      "error": "Missing BROWSER_USE_API_KEY"
+    },
+    "normalized": {
+      "note": "step-03 per-paper fallback",
+      "error": "Missing BROWSER_USE_API_KEY"
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "session": null,
+  "task": null,
+  "status": {
+    "status": "fallback",
+    "output": "{\"note\": \"step-05 history fallback\", \"error\": \"Missing BROWSER_USE_API_KEY\"}"
+  },
+  "error": "Missing BROWSER_USE_API_KEY"
+}

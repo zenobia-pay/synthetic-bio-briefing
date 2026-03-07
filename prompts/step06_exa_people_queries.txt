@@ -1,0 +1,4 @@
+people talking about {topic}
+people discussing RLVR coding agents
+people discussing terminal bench harness engineering
+people discussing tool verification test-time reinforcement learning

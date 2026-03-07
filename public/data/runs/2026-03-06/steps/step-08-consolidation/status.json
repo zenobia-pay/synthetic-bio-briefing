@@ -1,0 +1,21 @@
+{
+  "step": "step-08-consolidation",
+  "success": true,
+  "requiredChecks": {
+    "selectionFile": {
+      "ok": true,
+      "size": 115
+    },
+    "rejectionsFile": {
+      "ok": true,
+      "size": 116
+    },
+    "selectionObject": {
+      "ok": true,
+      "size": 5
+    }
+  },
+  "looksCorrect": true,
+  "notes": "Consolidation should produce selection/rejections artifacts (selected list may be sparse in fallback mode)",
+  "timestamp": "2026-03-07T22:53:21.469431Z"
+}

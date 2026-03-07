@@ -1,0 +1,1 @@
+Asked SuperGrok account-by-account what each tracked signal discussed today.

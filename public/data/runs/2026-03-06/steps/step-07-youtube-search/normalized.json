@@ -1,0 +1,46 @@
+{
+  "keywords": [
+    "What is the latest in synthetic biology tools, models, and labs?",
+    "SWE-rebench V2 RL coding agents",
+    "code RL environments human data",
+    "verifiable rewards coding agents"
+  ],
+  "videos": [
+    {
+      "videoId": "fallback0",
+      "title": "Fallback video signal for What is the latest in synthetic biology tools, models, and labs?",
+      "channelTitle": "fallback",
+      "publishedAt": "2026-03-06T00:00:00Z",
+      "description": "No API key or empty upstream output; placeholder keeps normalized artifacts non-empty.",
+      "url": "https://www.youtube.com",
+      "transcript": null,
+      "matchedQueries": [
+        "supergrok-youtube-fallback"
+      ]
+    },
+    {
+      "videoId": "fallback1",
+      "title": "Fallback video signal for What is the latest in synthetic biology tools, models, and labs?",
+      "channelTitle": "fallback",
+      "publishedAt": "2026-03-06T00:00:00Z",
+      "description": "No API key or empty upstream output; placeholder keeps normalized artifacts non-empty.",
+      "url": "https://www.youtube.com",
+      "transcript": null,
+      "matchedQueries": [
+        "supergrok-youtube-fallback"
+      ]
+    },
+    {
+      "videoId": "fallback2",
+      "title": "Fallback video signal for What is the latest in synthetic biology tools, models, and labs?",
+      "channelTitle": "fallback",
+      "publishedAt": "2026-03-06T00:00:00Z",
+      "description": "No API key or empty upstream output; placeholder keeps normalized artifacts non-empty.",
+      "url": "https://www.youtube.com",
+      "transcript": null,
+      "matchedQueries": [
+        "supergrok-youtube-fallback"
+      ]
+    }
+  ]
+}

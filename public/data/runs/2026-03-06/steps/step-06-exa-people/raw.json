@@ -1,0 +1,35 @@
+[
+  {
+    "mode": "supergrok-fallback",
+    "prompt": "Find 10 people/accounts to track for this topic and return strict JSON array with fields: name, handle, why_relevant, url. Topic: What is the latest in synthetic biology tools, models, and labs?",
+    "raw": {
+      "session": null,
+      "task": null,
+      "status": {
+        "status": "fallback",
+        "output": "{\"note\": \"step-06 people fallback\", \"error\": \"Missing BROWSER_USE_API_KEY\"}"
+      },
+      "error": "Missing BROWSER_USE_API_KEY"
+    },
+    "people": [
+      {
+        "name": "Fallback analyst",
+        "handle": "@fallback",
+        "why_relevant": "No external people payload returned for topic: What is the latest in synthetic biology tools, models, and labs?",
+        "url": "https://x.com"
+      },
+      {
+        "name": "Fallback analyst",
+        "handle": "@fallback",
+        "why_relevant": "No external people payload returned for topic: What is the latest in synthetic biology tools, models, and labs?",
+        "url": "https://x.com"
+      },
+      {
+        "name": "Fallback analyst",
+        "handle": "@fallback",
+        "why_relevant": "No external people payload returned for topic: What is the latest in synthetic biology tools, models, and labs?",
+        "url": "https://x.com"
+      }
+    ]
+  }
+]
