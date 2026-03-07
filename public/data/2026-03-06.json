@@ -1,0 +1,101 @@
+{
+  "date": "2026-03-06",
+  "topic": "what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
+  "window": "last 24 hours",
+  "originalPrompt": "what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
+  "oneSentenceTake": "March 6 synthbio chatter focused on programmable bioelectric control, xenobot-style embodiment, and hybrid bio-digital intelligence experiments moving from theory toward engineering workflows.",
+  "tweets": [
+    {
+      "label": "Michael Levin",
+      "url": "https://x.com/i/web/status/2029930767451619334",
+      "text": "Thank you very much for the talk and discussion - looking forward to part 2!",
+      "author": "@drmichaellevin"
+    },
+    {
+      "label": "Prof. Kevin J. Tracey, MD",
+      "url": "https://x.com/i/web/status/2030037767456002204",
+      "text": "A must see (and listen)! Thank you @tferriss for hosting  Dr. Michael Levin to chat up Reprogramming Bioelectricity https://t.co/k4zCdgbXp3 via @YouTube",
+      "author": "@KevinJTraceyMD"
+    },
+    {
+      "label": "Yungkingmito",
+      "url": "https://x.com/i/web/status/2029851030523961709",
+      "text": "The insult here is that they are not merely inspired by @drmichaellevin. They are using him to sanitize a leap. Michael Levin showed that voltage patterns matter in anatomy, regeneration, and pattern memory. He did not s",
+      "author": "@yungkingmito"
+    },
+    {
+      "label": "Borjan (Boki) Milinkovi\u0107",
+      "url": "https://x.com/i/web/status/2029924434107154651",
+      "text": "If you liked (were interested in the paper) but no longer have time to read such things, I recently gave a talk hosted by the kind and erudite @drmichaellevin, which you can now view on his youtube channel. \n\nhttps://t.c",
+      "author": "@MilinkovBorjan"
+    },
+    {
+      "label": "rocket",
+      "url": "https://x.com/i/web/status/2029997508458582344",
+      "text": "@HODLAndChill64 @drmichaellevin I think you\u2019d find these reflections on an emerging new type of cultural-economic organization interesting. They\u2019re from a legendary Bitcoin OG who is into stuff like philosophy of mind &a",
+      "author": "@rrocket000"
+    },
+    {
+      "label": "Jan Siba",
+      "url": "https://x.com/i/web/status/2029952478876143626",
+      "text": "@TOEwithCurt How @drmichaellevin explained your consciousness or \"yourself\" as the sum of all your cells' consciousnesses put together, since they are electrically connected. When you die, they simply disconnect: the com",
+      "author": "@jan_siba"
+    },
+    {
+      "label": "tejaKrasek",
+      "url": "https://x.com/i/web/status/2030049698560524425",
+      "text": "\"The Explorer II\" - another collaborative art &amp; science artwork with @DrMichaelLevin. \ud83e\udd70 https://t.co/bnjeaE4iqh",
+      "author": "@tejaKrasek"
+    },
+    {
+      "label": "Michael Levin",
+      "url": "https://x.com/i/web/status/2029931329698054235",
+      "text": "This specific journal (like a couple of others) has a special format, where someone writes a target paper, a bunch of people are set up to write specific reactions to it, and then the author writes a single response doc ",
+      "author": "@drmichaellevin"
+    },
+    {
+      "label": "Borjan (Boki) Milinkovi\u0107",
+      "url": "https://x.com/i/web/status/2029951608189063641",
+      "text": "@WilliamLamkin @drmichaellevin @jaaanaru The gratitude is all mine. Thanks for caring!",
+      "author": "@MilinkovBorjan"
+    },
+    {
+      "label": "Abe",
+      "url": "https://x.com/i/web/status/2029919028001538148",
+      "text": "@drmichaellevin Replies ?\n\nThat's new. What's that all about ? \n\nAlso like this feature, should we also publish replies to journal reviewers and their comments /questions published ?",
+      "author": "@NotDrAbeFroman"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Functional Synthetic Biology",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2207.00538v1",
+      "arxivUrl": "https://arxiv.org/abs/2207.00538v1",
+      "whyItMatters": "New paper relevant to the briefing topic (auto-collected)."
+    },
+    {
+      "title": "Synthetic Biology in Leishmaniasis: Design,simulation and validation of constructed Genetic circuit",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/1304.0342v1",
+      "arxivUrl": "https://arxiv.org/abs/1304.0342v1",
+      "whyItMatters": "New paper relevant to the briefing topic (auto-collected)."
+    },
+    {
+      "title": "Bayesian uncertainty analysis for complex systems biology models: emulation, global parameter searches and evaluation of gene functions",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/1607.06358v2",
+      "arxivUrl": "https://arxiv.org/abs/1607.06358v2",
+      "whyItMatters": "New paper relevant to the briefing topic (auto-collected)."
+    },
+    {
+      "title": "From Physics to Biology by Extending Criticality and Symmetry Breakings",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/1103.1833v2",
+      "arxivUrl": "https://arxiv.org/abs/1103.1833v2",
+      "whyItMatters": "New paper relevant to the briefing topic (auto-collected)."
+    },
+    {
+      "title": "Methods of Information Theory and Algorithmic Complexity for Network Biology",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/1401.3604v7",
+      "arxivUrl": "https://arxiv.org/abs/1401.3604v7",
+      "whyItMatters": "New paper relevant to the briefing topic (auto-collected)."
+    }
+  ]
+}
