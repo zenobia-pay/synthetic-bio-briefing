@@ -299,7 +299,7 @@ def consolidate(repo: Path, date: str, topic: str) -> dict:
     trace_path.parent.mkdir(parents=True, exist_ok=True)
     trace_path.write_text(json.dumps(trace, indent=2))
 
-    lines = [f"Code RL briefing ({date})", "", f"Topic: {topic}", "", "Top tweet signals (SuperGrok artifacts only)"]
+    lines = [f"Code RL briefing ({date})", "", f"Topic: {topic}", "", "Top tweet signals"]
     for x in selected:
         text = x["text"].replace("\n", " ").strip()
         if len(text) > 280:
