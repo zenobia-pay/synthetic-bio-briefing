@@ -24,6 +24,12 @@
     "insight": "We introduce Helios, the first 14B video generation model that runs at 19.5 FPS on a single NVIDIA H100 GPU and supports minute-scale generation while matching the quality of a strong baseline. We make breakthroughs alon..."
   },
   {
+    "title": "Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery",
+    "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.04735",
+    "arxivUrl": "https://arxiv.org/abs/2603.04735",
+    "insight": "This paper demonstrates that artificial intelligence can accelerate mathematical discovery by autonomously solving an open problem in theoretical physics. We present a neuro-symbolic system, combining the Gemini Deep Thi..."
+  },
+  {
     "title": "RealWonder: Real-Time Physical Action-Conditioned Video Generation",
     "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.05449",
     "arxivUrl": "https://arxiv.org/abs/2603.05449",
@@ -36,15 +42,9 @@
     "insight": "Continual learning is a long-standing challenge in robot policy learning, where a policy must acquire new skills over time without catastrophically forgetting previously learned ones. While prior work has extensively stu..."
   },
   {
-    "title": "Analysis of the Riemann Zeta Function via Recursive Taylor Expansions",
-    "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.05122",
-    "arxivUrl": "https://arxiv.org/abs/2603.05122",
-    "insight": "We present an unconditional proof that non-trivial zeros of the Riemann Zeta function must lie strictly on the critical line $\\text{Re}(s) = 0.5$. By defining a recursive path of Taylor expansions originating from the do..."
-  },
-  {
-    "title": "Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery",
-    "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.04735",
-    "arxivUrl": "https://arxiv.org/abs/2603.04735",
-    "insight": "This paper demonstrates that artificial intelligence can accelerate mathematical discovery by autonomously solving an open problem in theoretical physics. We present a neuro-symbolic system, combining the Gemini Deep Thi..."
+    "title": "Phi-4-reasoning-vision-15B Technical Report",
+    "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.03975",
+    "arxivUrl": "https://arxiv.org/abs/2603.03975",
+    "insight": "We present Phi-4-reasoning-vision-15B, a compact open-weight multimodal reasoning model, and share the motivations, design choices, experiments, and learnings that informed its development. Our goal is to contribute prac..."
   }
 ]

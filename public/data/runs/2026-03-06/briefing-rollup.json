@@ -1,5 +1,5 @@
 {
-  "topic": "What is the latest in synthetic biology tools, models, and labs?",
+  "topic": "what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
   "date": "2026-03-06",
   "papers": [
     {
@@ -27,6 +27,12 @@
       "insight": "We introduce Helios, the first 14B video generation model that runs at 19.5 FPS on a single NVIDIA H100 GPU and supports minute-scale generation while matching the quality of a strong baseline. We make breakthroughs alon..."
     },
     {
+      "title": "Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.04735",
+      "arxivUrl": "https://arxiv.org/abs/2603.04735",
+      "insight": "This paper demonstrates that artificial intelligence can accelerate mathematical discovery by autonomously solving an open problem in theoretical physics. We present a neuro-symbolic system, combining the Gemini Deep Thi..."
+    },
+    {
       "title": "RealWonder: Real-Time Physical Action-Conditioned Video Generation",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.05449",
       "arxivUrl": "https://arxiv.org/abs/2603.05449",
@@ -39,16 +45,10 @@
       "insight": "Continual learning is a long-standing challenge in robot policy learning, where a policy must acquire new skills over time without catastrophically forgetting previously learned ones. While prior work has extensively stu..."
     },
     {
-      "title": "Analysis of the Riemann Zeta Function via Recursive Taylor Expansions",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.05122",
-      "arxivUrl": "https://arxiv.org/abs/2603.05122",
-      "insight": "We present an unconditional proof that non-trivial zeros of the Riemann Zeta function must lie strictly on the critical line $\\text{Re}(s) = 0.5$. By defining a recursive path of Taylor expansions originating from the do..."
-    },
-    {
-      "title": "Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.04735",
-      "arxivUrl": "https://arxiv.org/abs/2603.04735",
-      "insight": "This paper demonstrates that artificial intelligence can accelerate mathematical discovery by autonomously solving an open problem in theoretical physics. We present a neuro-symbolic system, combining the Gemini Deep Thi..."
+      "title": "Phi-4-reasoning-vision-15B Technical Report",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.03975",
+      "arxivUrl": "https://arxiv.org/abs/2603.03975",
+      "insight": "We present Phi-4-reasoning-vision-15B, a compact open-weight multimodal reasoning model, and share the motivations, design choices, experiments, and learnings that informed its development. Our goal is to contribute prac..."
     }
   ],
   "supergrokTopic": {
@@ -92,7 +92,7 @@
   "exa": [
     {
       "mode": "supergrok-fallback",
-      "prompt": "Find 10 people/accounts to track for this topic and return strict JSON array with fields: name, handle, why_relevant, url. Topic: What is the latest in synthetic biology tools, models, and labs?",
+      "prompt": "Find 10 people/accounts to track for this topic and return strict JSON array with fields: name, handle, why_relevant, url. Topic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
       "raw": {
         "session": null,
         "task": null,
@@ -106,19 +106,19 @@
         {
           "name": "Fallback analyst",
           "handle": "@fallback",
-          "why_relevant": "No external people payload returned for topic: What is the latest in synthetic biology tools, models, and labs?",
+          "why_relevant": "No external people payload returned for topic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
           "url": "https://x.com"
         },
         {
           "name": "Fallback analyst",
           "handle": "@fallback",
-          "why_relevant": "No external people payload returned for topic: What is the latest in synthetic biology tools, models, and labs?",
+          "why_relevant": "No external people payload returned for topic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
           "url": "https://x.com"
         },
         {
           "name": "Fallback analyst",
           "handle": "@fallback",
-          "why_relevant": "No external people payload returned for topic: What is the latest in synthetic biology tools, models, and labs?",
+          "why_relevant": "No external people payload returned for topic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
           "url": "https://x.com"
         }
       ]
@@ -126,7 +126,7 @@
   ],
   "youtube": {
     "keywordPlan": {
-      "prompt": "You are selecting YouTube search keywords for a daily intelligence briefing.\nTopic: What is the latest in synthetic biology tools, models, and labs?\nUse this context and output strict JSON only.\n\nPaper titles: [\"Beyond Language Modeling: An Exploration of Multimodal Pretraining\", \"Speculative Speculative Decoding\", \"Replaying pre-training data improves fine-tuning\", \"Helios: Real Real-Time Long Video Generation Model\", \"RealWonder: Real-Time Physical Action-Conditioned Video Generation\", \"Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning\", \"Analysis of the Riemann Zeta Function via Recursive Taylor Expansions\", \"Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery\"]\nTweet snippets: []\nSignal accounts: []\n\nReturn JSON with exactly this schema and nothing else:\n{\"keywords\":[\"k1\",\"k2\",\"k3\",\"k4\"],\"rationale\":\"one short sentence\"}\nRules: keywords must be concise (2-6 words), specific, and relevant to likely new videos in last 24h.",
+      "prompt": "You are selecting YouTube search keywords for a daily intelligence briefing.\nTopic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?\nUse this context and output strict JSON only.\n\nPaper titles: [\"Beyond Language Modeling: An Exploration of Multimodal Pretraining\", \"Speculative Speculative Decoding\", \"Replaying pre-training data improves fine-tuning\", \"Helios: Real Real-Time Long Video Generation Model\", \"Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery\", \"RealWonder: Real-Time Physical Action-Conditioned Video Generation\", \"Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning\", \"Phi-4-reasoning-vision-15B Technical Report\"]\nTweet snippets: []\nSignal accounts: []\n\nReturn JSON with exactly this schema and nothing else:\n{\"keywords\":[\"k1\",\"k2\",\"k3\",\"k4\"],\"rationale\":\"one short sentence\"}\nRules: keywords must be concise (2-6 words), specific, and relevant to likely new videos in last 24h.",
       "raw": {
         "session": null,
         "task": null,
@@ -141,14 +141,14 @@
         "error": "Missing BROWSER_USE_API_KEY"
       },
       "keywords": [
-        "What is the latest in synthetic biology tools, models, and labs?",
+        "what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
         "SWE-rebench V2 RL coding agents",
         "code RL environments human data",
         "verifiable rewards coding agents"
       ]
     },
     "searchQueries": [
-      "What is the latest in synthetic biology tools, models, and labs?",
+      "what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
       "SWE-rebench V2 RL coding agents",
       "code RL environments human data",
       "verifiable rewards coding agents"
@@ -159,21 +159,21 @@
         "result": {
           "videos": [
             {
-              "title": "Fallback video signal for What is the latest in synthetic biology tools, models, and labs?",
+              "title": "Fallback video signal for what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
               "url": "https://www.youtube.com",
               "channel": "fallback",
               "publishedAt": "2026-03-06T00:00:00Z",
               "why_relevant": "No API key or empty upstream output; placeholder keeps normalized artifacts non-empty."
             },
             {
-              "title": "Fallback video signal for What is the latest in synthetic biology tools, models, and labs?",
+              "title": "Fallback video signal for what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
               "url": "https://www.youtube.com",
               "channel": "fallback",
               "publishedAt": "2026-03-06T00:00:00Z",
               "why_relevant": "No API key or empty upstream output; placeholder keeps normalized artifacts non-empty."
             },
             {
-              "title": "Fallback video signal for What is the latest in synthetic biology tools, models, and labs?",
+              "title": "Fallback video signal for what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
               "url": "https://www.youtube.com",
               "channel": "fallback",
               "publishedAt": "2026-03-06T00:00:00Z",

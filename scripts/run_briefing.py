@@ -149,6 +149,25 @@ def safe_browseruse_run(browseruse_key: str | None, prompt: str, timeout_s: int 
         }
 
 
+def _status_is_ok(raw: dict) -> bool:
+    st = ((raw or {}).get("status") or {}).get("status")
+    return st in ("finished", "fallback")
+
+
+def _normalized_has_signal(obj) -> bool:
+    if obj is None:
+        return False
+    if isinstance(obj, dict):
+        if obj.get("parseError"):
+            return False
+        if obj.get("error") and len(obj.keys()) <= 2:
+            return False
+        return True
+    if isinstance(obj, list):
+        return len(obj) > 0
+    return bool(obj)
+
+
 def parse_jsonish(s: str):
     if not s:
         return {}
@@ -428,8 +447,8 @@ def run(repo: Path, topic: str, date: str, browseruse_key: str | None, exa_key: 
         run_dir,
         "step-02-supergrok-topic",
         {"taskStatus": (r02.get("status") or {}).get("status", ""), "normalized": n02},
-        looks_correct=((r02.get("status") or {}).get("status") in ("finished", "fallback")),
-        notes="SuperGrok topic pass should finish or fallback, and produce normalized output"
+        looks_correct=_status_is_ok(r02),
+        notes="SuperGrok topic pass should finish/fallback (parse issues tolerated in fallback mode)"
     ))
 
     # Step 03: per-paper SuperGrok discussion
@@ -448,13 +467,13 @@ def run(repo: Path, topic: str, date: str, browseruse_key: str | None, exa_key: 
         per,
         per,
     )
-    finished_count = sum(1 for x in per if ((x.get("raw") or {}).get("status") or {}).get("status") == "finished")
+    ok_count = sum(1 for x in per if _status_is_ok(x.get("raw") or {}))
     step_statuses.append(mark_step_status(
         run_dir,
         "step-03-supergrok-paper-discussion",
-        {"paperDiscussionItems": per, "finishedOrFallbackCount": [1] * max(finished_count, len(per))},
-        looks_correct=len(per) >= 1,
-        notes=f"Per-paper outputs collected={len(per)}; finished={finished_count}; fallback accepted when normalized artifacts are present"
+        {"paperDiscussionItems": per, "okItemCount": ok_count},
+        looks_correct=(len(per) >= 1 and ok_count >= max(1, len(per) // 2)),
+        notes=f"Per-paper outputs collected={len(per)}; finished_or_fallback_items={ok_count}; requires >=50% successful task statuses"
     ))
 
     # Step 04: signals pass
@@ -467,8 +486,8 @@ def run(repo: Path, topic: str, date: str, browseruse_key: str | None, exa_key: 
         run_dir,
         "step-04-supergrok-signals",
         {"taskStatus": (r04.get("status") or {}).get("status", ""), "normalized": n04},
-        looks_correct=((r04.get("status") or {}).get("status") in ("finished", "fallback")),
-        notes="Signals pass should complete or fallback and produce normalized payload"
+        looks_correct=_status_is_ok(r04),
+        notes="Signals pass should complete/fallback (parse issues tolerated in fallback mode)"
     ))
 
     # Step 05: history pass
@@ -480,8 +499,8 @@ def run(repo: Path, topic: str, date: str, browseruse_key: str | None, exa_key: 
         run_dir,
         "step-05-supergrok-history-updates",
         {"taskStatus": (r05.get("status") or {}).get("status", ""), "normalized": n05},
-        looks_correct=((r05.get("status") or {}).get("status") in ("finished", "fallback")),
-        notes="History updates pass should complete or fallback and provide update payload"
+        looks_correct=_status_is_ok(r05),
+        notes="History updates pass should complete/fallback (parse issues tolerated in fallback mode)"
     ))
 
     # Step 06: Exa people (or SuperGrok fallback)
@@ -489,9 +508,17 @@ def run(repo: Path, topic: str, date: str, browseruse_key: str | None, exa_key: 
     if exa_key:
         r06 = exa_people(exa_key, q_lines)
         good_exa = sum(1 for x in r06 if isinstance((x or {}).get("response"), dict) and not (x.get("response") or {}).get("error"))
-        normalized06 = r06
-        looks06 = good_exa >= 1
-        notes06 = f"Exa responses successful={good_exa}; mode=exa"
+        if good_exa >= 1:
+            normalized06 = r06
+            looks06 = True
+            notes06 = f"Exa responses successful={good_exa}; mode=exa"
+        else:
+            fb06 = fallback_people_via_supergrok(browseruse_key, topic)
+            r06 = [fb06]
+            people_count = len(fb06.get("people", []))
+            normalized06 = fb06
+            looks06 = people_count >= 3
+            notes06 = f"Exa configured but returned no successful responses; mode=supergrok-fallback people={people_count}"
     else:
         fb06 = fallback_people_via_supergrok(browseruse_key, topic)
         r06 = [fb06]
@@ -589,6 +616,7 @@ def run(repo: Path, topic: str, date: str, browseruse_key: str | None, exa_key: 
     sel_path = run_dir / "consolidation" / "selection.json"
     rej_path = run_dir / "consolidation" / "rejections.json"
     sel = json.loads(sel_path.read_text()) if sel_path.exists() else {}
+    selected_items = sel.get("selected") if isinstance(sel, dict) else []
     step_statuses.append(mark_step_status(
         run_dir,
         "step-08-consolidation",
@@ -596,9 +624,10 @@ def run(repo: Path, topic: str, date: str, browseruse_key: str | None, exa_key: 
             "selectionFile": str(sel_path) if sel_path.exists() else "",
             "rejectionsFile": str(rej_path) if rej_path.exists() else "",
             "selectionObject": sel,
+            "selectedItems": selected_items if isinstance(selected_items, list) else [],
         },
-        looks_correct=sel_path.exists() and rej_path.exists(),
-        notes="Consolidation should produce selection/rejections artifacts (selected list may be sparse in fallback mode)"
+        looks_correct=sel_path.exists() and rej_path.exists() and isinstance(selected_items, list) and len(selected_items) > 0,
+        notes="Consolidation must produce selection/rejections artifacts with non-empty selected signals"
     ))
 
     one = run_dir / "one-pager.md"

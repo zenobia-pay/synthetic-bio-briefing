@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "steps": [
+    {
+      "step": "step-01-papers-alphaxiv",
+      "success": true,
+      "requiredChecks": {
+        "paperIds": {
+          "ok": true,
+          "size": 8
+        },
+        "papers": {
+          "ok": true,
+          "size": 8
+        }
+      },
+      "looksCorrect": true,
+      "notes": "Expected non-empty AlphaXiv/arXiv paper list",
+      "timestamp": "2026-03-08T02:55:50.529703Z"
+    },
+    {
+      "step": "step-02-supergrok-topic",
+      "success": true,
+      "requiredChecks": {
+        "taskStatus": {
+          "ok": true,
+          "size": 8
+        },
+        "normalized": {
+          "ok": true,
+          "size": 2
+        }
+      },
+      "looksCorrect": true,
+      "notes": "SuperGrok topic pass should finish/fallback (parse issues tolerated in fallback mode)",
+      "timestamp": "2026-03-08T02:55:50.533002Z"
+    },
+    {
+      "step": "step-03-supergrok-paper-discussion",
+      "success": true,
+      "requiredChecks": {
+        "paperDiscussionItems": {
+          "ok": true,
+          "size": 6
+        },
+        "okItemCount": {
+          "ok": true,
+          "size": null
+        }
+      },
+      "looksCorrect": true,
+      "notes": "Per-paper outputs collected=6; finished_or_fallback_items=6; requires >=50% successful task statuses",
+      "timestamp": "2026-03-08T02:55:50.536111Z"
+    },
+    {
+      "step": "step-04-supergrok-signals",
+      "success": true,
+      "requiredChecks": {
+        "taskStatus": {
+          "ok": true,
+          "size": 8
+        },
+        "normalized": {
+          "ok": true,
+          "size": 2
+        }
+      },
+      "looksCorrect": true,
+      "notes": "Signals pass should complete/fallback (parse issues tolerated in fallback mode)",
+      "timestamp": "2026-03-08T02:55:50.538317Z"
+    },
+    {
+      "step": "step-05-supergrok-history-updates",
+      "success": true,
+      "requiredChecks": {
+        "taskStatus": {
+          "ok": true,
+          "size": 8
+        },
+        "normalized": {
+          "ok": true,
+          "size": 2
+        }
+      },
+      "looksCorrect": true,
+      "notes": "History updates pass should complete/fallback (parse issues tolerated in fallback mode)",
+      "timestamp": "2026-03-08T02:55:50.540330Z"
+    },
+    {
+      "step": "step-06-exa-people",
+      "success": true,
+      "requiredChecks": {
+        "queryPayloads": {
+          "ok": true,
+          "size": 4
+        },
+        "responses": {
+          "ok": true,
+          "size": 1
+        }
+      },
+      "looksCorrect": true,
+      "notes": "Exa key missing; mode=supergrok-fallback people=3",
+      "timestamp": "2026-03-08T02:55:50.542198Z"
+    },
+    {
+      "step": "step-07-youtube-search",
+      "success": true,
+      "requiredChecks": {
+        "keywords": {
+          "ok": true,
+          "size": 4
+        },
+        "videos": {
+          "ok": true,
+          "size": 3
+        }
+      },
+      "looksCorrect": true,
+      "notes": "YouTube key missing; SuperGrok fallback mode",
+      "timestamp": "2026-03-08T02:55:50.544128Z"
+    },
+    {
+      "step": "step-08-consolidation",
+      "success": true,
+      "requiredChecks": {
+        "selectionFile": {
+          "ok": true,
+          "size": 115
+        },
+        "rejectionsFile": {
+          "ok": true,
+          "size": 116
+        },
+        "selectionObject": {
+          "ok": true,
+          "size": 5
+        },
+        "selectedItems": {
+          "ok": true,
+          "size": 1
+        }
+      },
+      "looksCorrect": true,
+      "notes": "Consolidation must produce selection/rejections artifacts with non-empty selected signals",
+      "timestamp": "2026-03-08T02:55:50.602943Z"
+    }
+  ],
+  "failedSteps": [],
+  "generatedAt": "2026-03-08T02:55:50.603865Z"
+}

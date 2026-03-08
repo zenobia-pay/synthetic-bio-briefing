@@ -13,9 +13,13 @@
     "selectionObject": {
       "ok": true,
       "size": 5
+    },
+    "selectedItems": {
+      "ok": true,
+      "size": 1
     }
   },
   "looksCorrect": true,
-  "notes": "Consolidation should produce selection/rejections artifacts (selected list may be sparse in fallback mode)",
-  "timestamp": "2026-03-07T22:53:21.469431Z"
+  "notes": "Consolidation must produce selection/rejections artifacts with non-empty selected signals",
+  "timestamp": "2026-03-08T02:55:49.376415Z"
 }

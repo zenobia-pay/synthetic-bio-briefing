@@ -1,0 +1,196 @@
+{
+  "topic": "what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
+  "date": "2026-03-07",
+  "papers": [
+    {
+      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.03276",
+      "arxivUrl": "https://arxiv.org/abs/2603.03276",
+      "insight": "The visual world offers a critical axis for advancing foundation models beyond language. Despite growing interest in this direction, the design space for native multimodal models remains opaque. We provide empirical clar..."
+    },
+    {
+      "title": "Speculative Speculative Decoding",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.03251",
+      "arxivUrl": "https://arxiv.org/abs/2603.03251",
+      "insight": "Autoregressive decoding is bottlenecked by its sequential nature. Speculative decoding has become a standard way to accelerate inference by using a fast draft model to predict upcoming tokens from a slower target model, ..."
+    },
+    {
+      "title": "Replaying pre-training data improves fine-tuning",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.04964",
+      "arxivUrl": "https://arxiv.org/abs/2603.04964",
+      "insight": "To obtain a language model for a target domain (e.g. math), the current paradigm is to pre-train on a vast amount of generic web text and then fine-tune on the relatively limited amount of target data. Typically, generic..."
+    },
+    {
+      "title": "Helios: Real Real-Time Long Video Generation Model",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.04379",
+      "arxivUrl": "https://arxiv.org/abs/2603.04379",
+      "insight": "We introduce Helios, the first 14B video generation model that runs at 19.5 FPS on a single NVIDIA H100 GPU and supports minute-scale generation while matching the quality of a strong baseline. We make breakthroughs alon..."
+    },
+    {
+      "title": "Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.04735",
+      "arxivUrl": "https://arxiv.org/abs/2603.04735",
+      "insight": "This paper demonstrates that artificial intelligence can accelerate mathematical discovery by autonomously solving an open problem in theoretical physics. We present a neuro-symbolic system, combining the Gemini Deep Thi..."
+    },
+    {
+      "title": "RealWonder: Real-Time Physical Action-Conditioned Video Generation",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.05449",
+      "arxivUrl": "https://arxiv.org/abs/2603.05449",
+      "insight": "Current video generation models cannot simulate physical consequences of 3D actions like forces and robotic manipulations, as they lack structural understanding of how actions affect 3D scenes. We present RealWonder, the..."
+    },
+    {
+      "title": "Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.03818",
+      "arxivUrl": "https://arxiv.org/abs/2603.03818",
+      "insight": "Continual learning is a long-standing challenge in robot policy learning, where a policy must acquire new skills over time without catastrophically forgetting previously learned ones. While prior work has extensively stu..."
+    },
+    {
+      "title": "Phi-4-reasoning-vision-15B Technical Report",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2603.03975",
+      "arxivUrl": "https://arxiv.org/abs/2603.03975",
+      "insight": "We present Phi-4-reasoning-vision-15B, a compact open-weight multimodal reasoning model, and share the motivations, design choices, experiments, and learnings that informed its development. Our goal is to contribute prac..."
+    }
+  ],
+  "supergrokTopic": {
+    "note": "step-02 supergrok topic fallback",
+    "error": "Missing BROWSER_USE_API_KEY"
+  },
+  "paperDiscussion": [
+    {
+      "note": "step-03 per-paper fallback",
+      "error": "Missing BROWSER_USE_API_KEY"
+    },
+    {
+      "note": "step-03 per-paper fallback",
+      "error": "Missing BROWSER_USE_API_KEY"
+    },
+    {
+      "note": "step-03 per-paper fallback",
+      "error": "Missing BROWSER_USE_API_KEY"
+    },
+    {
+      "note": "step-03 per-paper fallback",
+      "error": "Missing BROWSER_USE_API_KEY"
+    },
+    {
+      "note": "step-03 per-paper fallback",
+      "error": "Missing BROWSER_USE_API_KEY"
+    },
+    {
+      "note": "step-03 per-paper fallback",
+      "error": "Missing BROWSER_USE_API_KEY"
+    }
+  ],
+  "signals": {
+    "note": "step-04 signals fallback",
+    "error": "Missing BROWSER_USE_API_KEY"
+  },
+  "history": {
+    "note": "step-05 history fallback",
+    "error": "Missing BROWSER_USE_API_KEY"
+  },
+  "exa": [
+    {
+      "mode": "supergrok-fallback",
+      "prompt": "Find 10 people/accounts to track for this topic and return strict JSON array with fields: name, handle, why_relevant, url. Topic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
+      "raw": {
+        "session": null,
+        "task": null,
+        "status": {
+          "status": "fallback",
+          "output": "{\"note\": \"step-06 people fallback\", \"error\": \"Missing BROWSER_USE_API_KEY\"}"
+        },
+        "error": "Missing BROWSER_USE_API_KEY"
+      },
+      "people": [
+        {
+          "name": "Fallback analyst",
+          "handle": "@fallback",
+          "why_relevant": "No external people payload returned for topic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
+          "url": "https://x.com"
+        },
+        {
+          "name": "Fallback analyst",
+          "handle": "@fallback",
+          "why_relevant": "No external people payload returned for topic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
+          "url": "https://x.com"
+        },
+        {
+          "name": "Fallback analyst",
+          "handle": "@fallback",
+          "why_relevant": "No external people payload returned for topic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
+          "url": "https://x.com"
+        }
+      ]
+    }
+  ],
+  "youtube": {
+    "keywordPlan": {
+      "prompt": "You are selecting YouTube search keywords for a daily intelligence briefing.\nTopic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?\nUse this context and output strict JSON only.\n\nPaper titles: [\"Beyond Language Modeling: An Exploration of Multimodal Pretraining\", \"Speculative Speculative Decoding\", \"Replaying pre-training data improves fine-tuning\", \"Helios: Real Real-Time Long Video Generation Model\", \"Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery\", \"RealWonder: Real-Time Physical Action-Conditioned Video Generation\", \"Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning\", \"Phi-4-reasoning-vision-15B Technical Report\"]\nTweet snippets: []\nSignal accounts: []\n\nReturn JSON with exactly this schema and nothing else:\n{\"keywords\":[\"k1\",\"k2\",\"k3\",\"k4\"],\"rationale\":\"one short sentence\"}\nRules: keywords must be concise (2-6 words), specific, and relevant to likely new videos in last 24h.",
+      "raw": {
+        "session": null,
+        "task": null,
+        "status": {
+          "status": "fallback",
+          "output": "{\"note\": \"youtube keyword generation fallback\", \"error\": \"Missing BROWSER_USE_API_KEY\"}"
+        },
+        "error": "Missing BROWSER_USE_API_KEY"
+      },
+      "parsed": {
+        "note": "youtube keyword generation fallback",
+        "error": "Missing BROWSER_USE_API_KEY"
+      },
+      "keywords": [
+        "what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
+        "SWE-rebench V2 RL coding agents",
+        "code RL environments human data",
+        "verifiable rewards coding agents"
+      ]
+    },
+    "searchQueries": [
+      "what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
+      "SWE-rebench V2 RL coding agents",
+      "code RL environments human data",
+      "verifiable rewards coding agents"
+    ],
+    "runs": [
+      {
+        "query": "supergrok-youtube-fallback",
+        "result": {
+          "videos": [
+            {
+              "title": "Fallback video signal for what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
+              "url": "https://www.youtube.com",
+              "channel": "fallback",
+              "publishedAt": "2026-03-07T00:00:00Z",
+              "why_relevant": "No API key or empty upstream output; placeholder keeps normalized artifacts non-empty."
+            },
+            {
+              "title": "Fallback video signal for what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
+              "url": "https://www.youtube.com",
+              "channel": "fallback",
+              "publishedAt": "2026-03-07T00:00:00Z",
+              "why_relevant": "No API key or empty upstream output; placeholder keeps normalized artifacts non-empty."
+            },
+            {
+              "title": "Fallback video signal for what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
+              "url": "https://www.youtube.com",
+              "channel": "fallback",
+              "publishedAt": "2026-03-07T00:00:00Z",
+              "why_relevant": "No API key or empty upstream output; placeholder keeps normalized artifacts non-empty."
+            }
+          ],
+          "raw": {
+            "session": null,
+            "task": null,
+            "status": {
+              "status": "fallback",
+              "output": "{\"note\": \"youtube fallback search failed\", \"error\": \"Missing BROWSER_USE_API_KEY\"}"
+            },
+            "error": "Missing BROWSER_USE_API_KEY"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 [
   {
     "mode": "supergrok-fallback",
-    "prompt": "Find 10 people/accounts to track for this topic and return strict JSON array with fields: name, handle, why_relevant, url. Topic: What is the latest in synthetic biology tools, models, and labs?",
+    "prompt": "Find 10 people/accounts to track for this topic and return strict JSON array with fields: name, handle, why_relevant, url. Topic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
     "raw": {
       "session": null,
       "task": null,
@@ -15,19 +15,19 @@
       {
         "name": "Fallback analyst",
         "handle": "@fallback",
-        "why_relevant": "No external people payload returned for topic: What is the latest in synthetic biology tools, models, and labs?",
+        "why_relevant": "No external people payload returned for topic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
         "url": "https://x.com"
       },
       {
         "name": "Fallback analyst",
         "handle": "@fallback",
-        "why_relevant": "No external people payload returned for topic: What is the latest in synthetic biology tools, models, and labs?",
+        "why_relevant": "No external people payload returned for topic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
         "url": "https://x.com"
       },
       {
         "name": "Fallback analyst",
         "handle": "@fallback",
-        "why_relevant": "No external people payload returned for topic: What is the latest in synthetic biology tools, models, and labs?",
+        "why_relevant": "No external people payload returned for topic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
         "url": "https://x.com"
       }
     ]

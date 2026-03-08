@@ -12,6 +12,6 @@
     }
   },
   "looksCorrect": true,
-  "notes": "SuperGrok topic pass should finish or fallback, and produce normalized output",
-  "timestamp": "2026-03-07T22:53:21.400157Z"
+  "notes": "SuperGrok topic pass should finish/fallback (parse issues tolerated in fallback mode)",
+  "timestamp": "2026-03-08T02:55:49.306601Z"
 }

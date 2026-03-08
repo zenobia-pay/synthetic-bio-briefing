@@ -1,0 +1,1 @@
+Find the 15 highest-signal tweets in the last 24h about: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?. Return strict JSON array with tweet_url,text,author and avoid generic praise/thanks posts.

@@ -1,4 +1,4 @@
-# One-Pager — What is the latest in synthetic biology tools, models, and labs? (2026-03-06)
+# One-Pager — what is happening in the diverse intelligence and emergence engineering space of synthetic biology? (2026-03-06)
 
 Built from step outputs under data/runs/2026-03-06/steps/.
 

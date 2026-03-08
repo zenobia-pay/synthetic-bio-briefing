@@ -1,6 +1,6 @@
 {
   "keywordPlan": {
-    "prompt": "You are selecting YouTube search keywords for a daily intelligence briefing.\nTopic: What is the latest in synthetic biology tools, models, and labs?\nUse this context and output strict JSON only.\n\nPaper titles: [\"Beyond Language Modeling: An Exploration of Multimodal Pretraining\", \"Speculative Speculative Decoding\", \"Replaying pre-training data improves fine-tuning\", \"Helios: Real Real-Time Long Video Generation Model\", \"RealWonder: Real-Time Physical Action-Conditioned Video Generation\", \"Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning\", \"Analysis of the Riemann Zeta Function via Recursive Taylor Expansions\", \"Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery\"]\nTweet snippets: []\nSignal accounts: []\n\nReturn JSON with exactly this schema and nothing else:\n{\"keywords\":[\"k1\",\"k2\",\"k3\",\"k4\"],\"rationale\":\"one short sentence\"}\nRules: keywords must be concise (2-6 words), specific, and relevant to likely new videos in last 24h.",
+    "prompt": "You are selecting YouTube search keywords for a daily intelligence briefing.\nTopic: what is happening in the diverse intelligence and emergence engineering space of synthetic biology?\nUse this context and output strict JSON only.\n\nPaper titles: [\"Beyond Language Modeling: An Exploration of Multimodal Pretraining\", \"Speculative Speculative Decoding\", \"Replaying pre-training data improves fine-tuning\", \"Helios: Real Real-Time Long Video Generation Model\", \"Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery\", \"RealWonder: Real-Time Physical Action-Conditioned Video Generation\", \"Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning\", \"Phi-4-reasoning-vision-15B Technical Report\"]\nTweet snippets: []\nSignal accounts: []\n\nReturn JSON with exactly this schema and nothing else:\n{\"keywords\":[\"k1\",\"k2\",\"k3\",\"k4\"],\"rationale\":\"one short sentence\"}\nRules: keywords must be concise (2-6 words), specific, and relevant to likely new videos in last 24h.",
     "raw": {
       "session": null,
       "task": null,
@@ -15,14 +15,14 @@
       "error": "Missing BROWSER_USE_API_KEY"
     },
     "keywords": [
-      "What is the latest in synthetic biology tools, models, and labs?",
+      "what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
       "SWE-rebench V2 RL coding agents",
       "code RL environments human data",
       "verifiable rewards coding agents"
     ]
   },
   "searchQueries": [
-    "What is the latest in synthetic biology tools, models, and labs?",
+    "what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
     "SWE-rebench V2 RL coding agents",
     "code RL environments human data",
     "verifiable rewards coding agents"
@@ -33,21 +33,21 @@
       "result": {
         "videos": [
           {
-            "title": "Fallback video signal for What is the latest in synthetic biology tools, models, and labs?",
+            "title": "Fallback video signal for what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
             "url": "https://www.youtube.com",
             "channel": "fallback",
             "publishedAt": "2026-03-06T00:00:00Z",
             "why_relevant": "No API key or empty upstream output; placeholder keeps normalized artifacts non-empty."
           },
           {
-            "title": "Fallback video signal for What is the latest in synthetic biology tools, models, and labs?",
+            "title": "Fallback video signal for what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
             "url": "https://www.youtube.com",
             "channel": "fallback",
             "publishedAt": "2026-03-06T00:00:00Z",
             "why_relevant": "No API key or empty upstream output; placeholder keeps normalized artifacts non-empty."
           },
           {
-            "title": "Fallback video signal for What is the latest in synthetic biology tools, models, and labs?",
+            "title": "Fallback video signal for what is happening in the diverse intelligence and emergence engineering space of synthetic biology?",
             "url": "https://www.youtube.com",
             "channel": "fallback",
             "publishedAt": "2026-03-06T00:00:00Z",

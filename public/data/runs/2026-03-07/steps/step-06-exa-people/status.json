@@ -1,0 +1,17 @@
+{
+  "step": "step-06-exa-people",
+  "success": true,
+  "requiredChecks": {
+    "queryPayloads": {
+      "ok": true,
+      "size": 4
+    },
+    "responses": {
+      "ok": true,
+      "size": 1
+    }
+  },
+  "looksCorrect": true,
+  "notes": "Exa key missing; mode=supergrok-fallback people=3",
+  "timestamp": "2026-03-08T02:55:50.542198Z"
+}

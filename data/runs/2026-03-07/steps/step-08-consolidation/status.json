@@ -1,0 +1,25 @@
+{
+  "step": "step-08-consolidation",
+  "success": true,
+  "requiredChecks": {
+    "selectionFile": {
+      "ok": true,
+      "size": 115
+    },
+    "rejectionsFile": {
+      "ok": true,
+      "size": 116
+    },
+    "selectionObject": {
+      "ok": true,
+      "size": 5
+    },
+    "selectedItems": {
+      "ok": true,
+      "size": 1
+    }
+  },
+  "looksCorrect": true,
+  "notes": "Consolidation must produce selection/rejections artifacts with non-empty selected signals",
+  "timestamp": "2026-03-08T02:55:50.602943Z"
+}

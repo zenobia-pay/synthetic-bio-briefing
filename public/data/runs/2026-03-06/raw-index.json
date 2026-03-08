@@ -3,7 +3,7 @@
   "files": [
     {
       "path": "/data/runs/2026-03-06/briefing-rollup.json",
-      "bytes": 9823
+      "bytes": 10155
     },
     {
       "path": "/data/runs/2026-03-06/consolidation/rejections.json",
@@ -11,19 +11,19 @@
     },
     {
       "path": "/data/runs/2026-03-06/consolidation/selection.json",
-      "bytes": 2391
+      "bytes": 2957
     },
     {
       "path": "/data/runs/2026-03-06/one-pager.md",
-      "bytes": 462
+      "bytes": 497
     },
     {
       "path": "/data/runs/2026-03-06/raw-index.json",
-      "bytes": 4806
+      "bytes": 4808
     },
     {
       "path": "/data/runs/2026-03-06/run-status.json",
-      "bytes": 3675
+      "bytes": 3759
     },
     {
       "path": "/data/runs/2026-03-06/run-story.md",
@@ -31,15 +31,15 @@
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-01-papers-alphaxiv/normalized.json",
-      "bytes": 3559
+      "bytes": 3532
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-01-papers-alphaxiv/prompt.txt",
-      "bytes": 233
+      "bytes": 268
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-01-papers-alphaxiv/raw.json",
-      "bytes": 3989
+      "bytes": 3999
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-01-papers-alphaxiv/status.json",
@@ -55,7 +55,7 @@
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-02-supergrok-topic/prompt.txt",
-      "bytes": 403
+      "bytes": 438
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-02-supergrok-topic/raw.json",
@@ -63,7 +63,7 @@
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-02-supergrok-topic/status.json",
-      "bytes": 368
+      "bytes": 376
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-02-supergrok-topic/story.md",
@@ -71,7 +71,7 @@
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-03-supergrok-paper-discussion/normalized.json",
-      "bytes": 5112
+      "bytes": 5054
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-03-supergrok-paper-discussion/prompt.txt",
@@ -79,11 +79,11 @@
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-03-supergrok-paper-discussion/raw.json",
-      "bytes": 5112
+      "bytes": 5054
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-03-supergrok-paper-discussion/status.json",
-      "bytes": 423
+      "bytes": 416
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-03-supergrok-paper-discussion/story.md",
@@ -95,7 +95,7 @@
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-04-supergrok-signals/prompt.txt",
-      "bytes": 370
+      "bytes": 405
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-04-supergrok-signals/raw.json",
@@ -103,7 +103,7 @@
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-04-supergrok-signals/status.json",
-      "bytes": 364
+      "bytes": 372
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-04-supergrok-signals/story.md",
@@ -123,7 +123,7 @@
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-05-supergrok-history-updates/status.json",
-      "bytes": 376
+      "bytes": 388
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-05-supergrok-history-updates/story.md",
@@ -131,7 +131,7 @@
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-06-exa-people/normalized.json",
-      "bytes": 1239
+      "bytes": 1379
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-06-exa-people/prompt.txt",
@@ -139,7 +139,7 @@
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-06-exa-people/raw.json",
-      "bytes": 1309
+      "bytes": 1449
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-06-exa-people/status.json",
@@ -151,15 +151,15 @@
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-07-youtube-search/normalized.json",
-      "bytes": 1667
+      "bytes": 1807
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-07-youtube-search/prompt.txt",
-      "bytes": 548
+      "bytes": 583
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-07-youtube-search/raw.json",
-      "bytes": 3545
+      "bytes": 3729
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-07-youtube-search/status.json",
@@ -171,7 +171,7 @@
     },
     {
       "path": "/data/runs/2026-03-06/steps/step-08-consolidation/status.json",
-      "bytes": 472
+      "bytes": 519
     }
   ]
 }

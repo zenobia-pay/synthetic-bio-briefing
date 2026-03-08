@@ -12,6 +12,6 @@
     }
   },
   "looksCorrect": true,
-  "notes": "Signals pass should complete or fallback and produce normalized payload",
-  "timestamp": "2026-03-07T22:53:21.404328Z"
+  "notes": "Signals pass should complete/fallback (parse issues tolerated in fallback mode)",
+  "timestamp": "2026-03-08T02:55:49.313043Z"
 }

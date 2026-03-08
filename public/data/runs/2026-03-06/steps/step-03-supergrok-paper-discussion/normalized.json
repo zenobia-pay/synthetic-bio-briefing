@@ -68,8 +68,8 @@
     }
   },
   {
-    "paper": "RealWonder: Real-Time Physical Action-Conditioned Video Generation",
-    "prompt": "Open X SuperGrok.\nFor paper title: RealWonder: Real-Time Physical Action-Conditioned Video Generation\nTime window requirement: ONLY posts from the last 24 hours.\nAsk SuperGrok EXACTLY THIS:\n\"what are people saying about this exact paper title?\"\nThen constrain to last 24 hours and return direct status URLs with verbatim tweet text.\nReturn strict JSON only.",
+    "paper": "Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery",
+    "prompt": "Open X SuperGrok.\nFor paper title: Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery\nTime window requirement: ONLY posts from the last 24 hours.\nAsk SuperGrok EXACTLY THIS:\n\"what are people saying about this exact paper title?\"\nThen constrain to last 24 hours and return direct status URLs with verbatim tweet text.\nReturn strict JSON only.",
     "raw": {
       "session": null,
       "task": null,
@@ -85,8 +85,8 @@
     }
   },
   {
-    "paper": "Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning",
-    "prompt": "Open X SuperGrok.\nFor paper title: Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning\nTime window requirement: ONLY posts from the last 24 hours.\nAsk SuperGrok EXACTLY THIS:\n\"what are people saying about this exact paper title?\"\nThen constrain to last 24 hours and return direct status URLs with verbatim tweet text.\nReturn strict JSON only.",
+    "paper": "RealWonder: Real-Time Physical Action-Conditioned Video Generation",
+    "prompt": "Open X SuperGrok.\nFor paper title: RealWonder: Real-Time Physical Action-Conditioned Video Generation\nTime window requirement: ONLY posts from the last 24 hours.\nAsk SuperGrok EXACTLY THIS:\n\"what are people saying about this exact paper title?\"\nThen constrain to last 24 hours and return direct status URLs with verbatim tweet text.\nReturn strict JSON only.",
     "raw": {
       "session": null,
       "task": null,

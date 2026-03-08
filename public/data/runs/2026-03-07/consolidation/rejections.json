@@ -1,0 +1,152 @@
+[
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/drmichaellevin/status/2029947192748700032",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  },
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/SynBioBeta/status/2030342721823440953",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  },
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/seth_1infinity/status/2030288613087293676",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  },
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/CharlesHickcox/status/2030258120119791739",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  },
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/TimeLordRaps/status/2030201884783542453",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  },
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/jdietz/status/2030159971963301960",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  },
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/drmichaellevin/status/2029854120119791739",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  },
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/AllenInstitute/status/2029758120119791739",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  },
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/kylemcnease/status/2029958120119791739",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  },
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/alexwissnergross/status/2030058120119791739",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  },
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/hamiltonmorrin/status/2030158120119791739",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  },
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/borjanmilinkovic/status/2030258120119791740",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  },
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/LucianTheLight/status/2030158120119791741",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  },
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/drmichaellevin/status/2030358120119791742",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  },
+  {
+    "source_step": "step-01-supergrok-topic",
+    "source_file": "/Users/ryanprendergast/.openclaw/workspace/synthetic-bio-briefing/data/runs/2026-03-07/steps/step-01-supergrok-topic/raw.json",
+    "url": "https://x.com/drmichaellevin/status/2030458120119791743",
+    "text": "",
+    "author": "",
+    "score": 0,
+    "reasons": [],
+    "rejected_reason": "low_signal_or_empty_text"
+  }
+]

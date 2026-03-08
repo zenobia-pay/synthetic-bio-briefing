@@ -1,0 +1,10 @@
+YouTube step objective:
+1) Use an LLM to derive 3-4 keyword queries from:
+   - briefing topic: "what is happening in the diverse intelligence and emergence engineering space of synthetic biology?"
+   - today's scraped papers/tweets/signals
+2) Search YouTube Data API for NEW videos only in date window: 2026-03-07 UTC day only.
+3) Deduplicate videos across queries.
+4) Fetch transcripts using youtube-transcript-api when available.
+5) Persist keyword prompt/output, queries, raw API responses, and normalized merged videos.
+
+LLM keyword plan prompt and output are stored in raw.json.

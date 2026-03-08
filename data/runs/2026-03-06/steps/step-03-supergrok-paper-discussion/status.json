@@ -6,12 +6,12 @@
       "ok": true,
       "size": 6
     },
-    "finishedOrFallbackCount": {
+    "okItemCount": {
       "ok": true,
-      "size": 6
+      "size": null
     }
   },
   "looksCorrect": true,
-  "notes": "Per-paper outputs collected=6; finished=0; fallback accepted when normalized artifacts are present",
-  "timestamp": "2026-03-07T22:53:21.402622Z"
+  "notes": "Per-paper outputs collected=6; finished_or_fallback_items=6; requires >=50% successful task statuses",
+  "timestamp": "2026-03-08T02:55:49.310792Z"
 }
