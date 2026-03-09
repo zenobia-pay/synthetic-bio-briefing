@@ -100,5 +100,16 @@ fetch('/data/runs.json').then(r=>r.json()).then(async (r)=>{
   if(runs[0]) showRun(runs[0].date);
 });
 </script>
+
+<script>
+(function(){
+  const p=new URLSearchParams(location.search);
+  if(p.get('debug')!=='true') return;
+  const wrap=document.createElement('div');
+  wrap.style.cssText='position:fixed;right:12px;bottom:12px;z-index:99999;background:#111;color:#fff;padding:10px 12px;border-radius:10px;font:12px/1.4 system-ui;box-shadow:0 6px 24px rgba(0,0,0,.35)';
+  wrap.innerHTML='Debug mode: <a href="https://www.agentation.com/" target="_blank" style="color:#93c5fd;text-decoration:none">Agentation</a>';
+  document.body.appendChild(wrap);
+})();
+</script>
 </body>
 </html>
