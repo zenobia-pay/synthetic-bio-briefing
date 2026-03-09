@@ -1,6 +1,6 @@
 Open X SuperGrok.
-Time window requirement: ONLY posts from the last 24 hours.
-For each handle in: {handles_csv}
-Ask:
-"What is this account talking about today related to {topic}? Return direct status URLs and exact tweet text only from the last 24 hours."
-Return strict JSON.
+Time window requirement: focus on posts from the last ~24 hours.
+For these saved signal accounts: {handles_csv}
+Ask SuperGrok EXACTLY THIS:
+"What are these twitter accounts saying about {topic} the past day or so?"
+Return strict JSON array where each item includes: handle, tweet_url, text, author.

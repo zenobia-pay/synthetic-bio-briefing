@@ -491,7 +491,7 @@ def run(repo: Path, topic: str, date: str, browseruse_key: str | None, exa_key: 
     ))
 
     # Step 05: history pass
-    p05 = read_prompt(repo, "step05_supergrok_history_updates.txt")
+    p05 = read_prompt(repo, "step05_supergrok_history_updates.txt").format(topic=topic)
     r05 = safe_browseruse_run(browseruse_key, p05, fallback_note="step-05 history fallback")
     n05 = parse_jsonish((r05.get("status") or {}).get("output") or "{}")
     save_step(run_dir, "step-05-supergrok-history-updates", p05, "Asked SuperGrok for 1/3/7/14-day update signals tied to prior claims.", "raw.json", r05, n05)
