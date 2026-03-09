@@ -288,6 +288,10 @@ def fallback_people_via_supergrok(browseruse_key: str, topic: str):
 
 
 
+def redact_url_key(url: str) -> str:
+    return re.sub(r"([?&]key=)[^&]+", r"\1REDACTED", url)
+
+
 def youtube_search(api_key: str, query: str, date: str):
     start = f"{date}T00:00:00Z"
     end = f"{date}T23:59:59Z"
@@ -302,10 +306,11 @@ def youtube_search(api_key: str, query: str, date: str):
         "key": api_key,
     }
     url = "https://www.googleapis.com/youtube/v3/search?" + urllib.parse.urlencode(params)
+    safe_url = redact_url_key(url)
     try:
         raw = json.loads(urllib.request.urlopen(url, timeout=60).read().decode("utf-8"))
     except Exception as e:
-        raw = {"error": str(e), "url": url}
+        raw = {"error": str(e), "url": safe_url}
 
     transcript_error = None
     try:
@@ -338,7 +343,7 @@ def youtube_search(api_key: str, query: str, date: str):
             "url": f"https://www.youtube.com/watch?v={vid}" if vid else "",
             "transcript": transcript,
         })
-    return {"requestUrl": url, "raw": raw, "videos": items, "transcriptLibrary": "youtube-transcript-api", "transcriptLibraryError": transcript_error}
+    return {"requestUrl": safe_url, "raw": raw, "videos": items, "transcriptLibrary": "youtube-transcript-api", "transcriptLibraryError": transcript_error}
 
 
 
